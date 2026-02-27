@@ -1,0 +1,81 @@
+<?php
+
+namespace App\Tests\Builder\User;
+
+use App\Model\User\Entity\User\Email;
+use App\Model\User\Entity\User\Id;
+use App\Model\User\Entity\User\Name;
+use App\Model\User\Entity\User\User;
+use DateTimeImmutable;
+
+class UserBuilder
+{
+    private $id;
+
+    private $date;
+
+    private $email;
+
+    private $hash;
+
+    private $token;
+
+    private $confirmed;
+
+    private $network;
+
+    private $identity;
+
+    public function __construct()
+    {
+        $this->id = Id::next();
+        $this->date = new DateTimeImmutable();
+    }
+
+    public function viaEmail(Email $email = null, string $hash = null, string $token = null): self
+    {
+        $clone = clone $this;
+        $clone->email = $email ?? new Email('test@test.ru');
+        $clone->hash = $hash ?? 'hash';
+        $clone->token = $token ?? 'token';
+
+        return $clone;
+    }
+
+    public function viaNetwork(string $network = null, string $identity = null): self
+    {
+        $clone = clone $this;
+        $clone->network = $network ?? 'vk';
+        $clone->identity = $identity ?? '00000001';
+
+        return $clone;
+    }
+
+    public function confirmed(): self
+    {
+        $clone = clone $this;
+        $clone->confirmed = true;
+
+        return $clone;
+    }
+
+    public function build(): User
+    {
+        if ($this->email) {
+            $user = User::signUpByEmail(
+                $this->id,
+                $this->date,
+                new Name('test', 'lastName'),
+                $this->email,
+                $this->hash,
+                $this->token,
+            );
+
+            if ($this->confirmed) {
+                $user->confirmSignUp();
+            }
+        }
+
+        return $user;
+    }
+}

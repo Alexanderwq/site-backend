@@ -1,0 +1,2494 @@
+[
+    {
+        "id": "1",
+        "name": "Авиамоторная",
+        "descriptor": "aviamotornaya",
+        "color": "#FFCD1C",
+        "id_city": "1"
+    },
+    {
+        "id": "2",
+        "name": "Автозаводская",
+        "descriptor": "avtozavodskaya",
+        "color": "#4FB04F",
+        "id_city": "1"
+    },
+    {
+        "id": "3",
+        "name": "Автозаводская МЦК",
+        "descriptor": "avtozavodskaya_mck",
+        "color": "#F9BCD1",
+        "id_city": "1"
+    },
+    {
+        "id": "4",
+        "name": "Академическая",
+        "descriptor": "akademicheskaya",
+        "color": "#F07E24",
+        "id_city": "1"
+    },
+    {
+        "id": "5",
+        "name": "Александровский сад",
+        "descriptor": "aleksandrovskiy_sad",
+        "color": "#1EBCEF",
+        "id_city": "1"
+    },
+    {
+        "id": "6",
+        "name": "Алексеевская",
+        "descriptor": "alekseevskaya",
+        "color": "#F07E24",
+        "id_city": "1"
+    },
+    {
+        "id": "7",
+        "name": "Алма-атинская",
+        "descriptor": "alma-atinskaya",
+        "color": "#4FB04F",
+        "id_city": "1"
+    },
+    {
+        "id": "8",
+        "name": "Алтуфьево",
+        "descriptor": "altufevo",
+        "color": "#ADACAC",
+        "id_city": "1"
+    },
+    {
+        "id": "9",
+        "name": "Аминьевская",
+        "descriptor": "aminevskaya",
+        "color": "#88CDCF",
+        "id_city": "1"
+    },
+    {
+        "id": "10",
+        "name": "Андроновка",
+        "descriptor": "andronovka",
+        "color": "#F9BCD1",
+        "id_city": "1"
+    },
+    {
+        "id": "11",
+        "name": "Андроновка МЦК",
+        "descriptor": "andronovka_mck",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "12",
+        "name": "Аникеевка МЦД",
+        "descriptor": "anikeevka_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "13",
+        "name": "Аннино",
+        "descriptor": "annino",
+        "color": "#ADACAC",
+        "id_city": "1"
+    },
+    {
+        "id": "14",
+        "name": "Арбатская",
+        "descriptor": "arbatskaya",
+        "color": "#0072BA",
+        "id_city": "1"
+    },
+    {
+        "id": "15",
+        "name": "Аэропорт",
+        "descriptor": "aeroport",
+        "color": "#4FB04F",
+        "id_city": "1"
+    },
+    {
+        "id": "16",
+        "name": "Аэропорт Внуково",
+        "descriptor": "aeroport_vnukovo",
+        "color": "#FFCD1C",
+        "id_city": "1"
+    },
+    {
+        "id": "17",
+        "name": "Бабушкинская",
+        "descriptor": "babushkinskaya",
+        "color": "#F07E24",
+        "id_city": "1"
+    },
+    {
+        "id": "18",
+        "name": "Багратионовская",
+        "descriptor": "bagrationovskaya",
+        "color": "#1EBCEF",
+        "id_city": "1"
+    },
+    {
+        "id": "19",
+        "name": "Баковка МЦД",
+        "descriptor": "bakovka_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "20",
+        "name": "Балтийская МЦК",
+        "descriptor": "baltiyskaya_mck",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "21",
+        "name": "Баррикадная",
+        "descriptor": "barrikadnaya",
+        "color": "#943E90",
+        "id_city": "1"
+    },
+    {
+        "id": "22",
+        "name": "Бауманская",
+        "descriptor": "baumanskaya",
+        "color": "#0072BA",
+        "id_city": "1"
+    },
+    {
+        "id": "23",
+        "name": "Беговая",
+        "descriptor": "begovaya",
+        "color": "#943E90",
+        "id_city": "1"
+    },
+    {
+        "id": "24",
+        "name": "Беговая МЦД",
+        "descriptor": "begovaya_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "25",
+        "name": "Белокаменная МЦК",
+        "descriptor": "belokamennaya_mck",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "26",
+        "name": "Беломорская",
+        "descriptor": "belomorskaya",
+        "color": "#4FB04F",
+        "id_city": "1"
+    },
+    {
+        "id": "27",
+        "name": "Белорусская",
+        "descriptor": "belorusskaya",
+        "color": "#4FB04F",
+        "id_city": "1"
+    },
+    {
+        "id": "28",
+        "name": "Белорусская МЦД",
+        "descriptor": "belorusskaya_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "29",
+        "name": "Беляево",
+        "descriptor": "belyaevo",
+        "color": "#F07E24",
+        "id_city": "1"
+    },
+    {
+        "id": "30",
+        "name": "Бескудниково МЦД",
+        "descriptor": "beskudnikovo_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "31",
+        "name": "Бибирево",
+        "descriptor": "bibirevo",
+        "color": "#ADACAC",
+        "id_city": "1"
+    },
+    {
+        "id": "32",
+        "name": "Библиотека им.Ленина",
+        "descriptor": "biblioteka_im.lenina",
+        "color": "#E42313",
+        "id_city": "1"
+    },
+    {
+        "id": "33",
+        "name": "Битца МЦД",
+        "descriptor": "bitca_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "34",
+        "name": "Битцевский парк",
+        "descriptor": "bitcevskiy_park",
+        "color": "#BAC8E8",
+        "id_city": "1"
+    },
+    {
+        "id": "35",
+        "name": "Борисово",
+        "descriptor": "borisovo",
+        "color": "#BED12C",
+        "id_city": "1"
+    },
+    {
+        "id": "36",
+        "name": "Боровицкая",
+        "descriptor": "borovickaya",
+        "color": "#ADACAC",
+        "id_city": "1"
+    },
+    {
+        "id": "37",
+        "name": "Боровское шоссе",
+        "descriptor": "borovskoe_shosse",
+        "color": "#FFCD1C",
+        "id_city": "1"
+    },
+    {
+        "id": "38",
+        "name": "Ботанический сад",
+        "descriptor": "botanicheskiy_sad",
+        "color": "#F07E24",
+        "id_city": "1"
+    },
+    {
+        "id": "39",
+        "name": "Ботанический сад МЦК",
+        "descriptor": "botanicheskiy_sad_mck",
+        "color": "#F9BCD1",
+        "id_city": "1"
+    },
+    {
+        "id": "40",
+        "name": "Братиславская",
+        "descriptor": "bratislavskaya",
+        "color": "#BED12C",
+        "id_city": "1"
+    },
+    {
+        "id": "41",
+        "name": "Бульвар Адмирала Ушакова",
+        "descriptor": "bulvar_admirala_ushakova",
+        "color": "#BAC8E8",
+        "id_city": "1"
+    },
+    {
+        "id": "42",
+        "name": "Бульвар Дмитрия Донского",
+        "descriptor": "bulvar_dmitriya_donskogo",
+        "color": "#ADACAC",
+        "id_city": "1"
+    },
+    {
+        "id": "43",
+        "name": "Бульвар Рокоссовского",
+        "descriptor": "bulvar_rokossovskogo",
+        "color": "#E42313",
+        "id_city": "1"
+    },
+    {
+        "id": "44",
+        "name": "Бульвар Рокоссовского МЦК",
+        "descriptor": "bulvar_rokossovskogo_mck",
+        "color": "#F9BCD1",
+        "id_city": "1"
+    },
+    {
+        "id": "45",
+        "name": "Бунинская Аллея",
+        "descriptor": "buninskaya_alleya",
+        "color": "#BAC8E8",
+        "id_city": "1"
+    },
+    {
+        "id": "46",
+        "name": "Бутово МЦД",
+        "descriptor": "butovo_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "47",
+        "name": "Бутырская",
+        "descriptor": "butyrskaya",
+        "color": "#BED12C",
+        "id_city": "1"
+    },
+    {
+        "id": "48",
+        "name": "Быково",
+        "descriptor": "bykovo",
+        "color": "#EA5B04",
+        "id_city": "1"
+    },
+    {
+        "id": "49",
+        "name": "Варшавская",
+        "descriptor": "varshavskaya",
+        "color": "#88CDCF",
+        "id_city": "1"
+    },
+    {
+        "id": "50",
+        "name": "ВДНХ",
+        "descriptor": "vdnh",
+        "color": "#F07E24",
+        "id_city": "1"
+    },
+    {
+        "id": "51",
+        "name": "Верхние Котлы МЦК",
+        "descriptor": "verhnie_kotly_mck",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "52",
+        "name": "Верхние Лихоборы",
+        "descriptor": "verhnie_lihobory",
+        "color": "#BED12C",
+        "id_city": "1"
+    },
+    {
+        "id": "53",
+        "name": "Вешняки",
+        "descriptor": "veshnyaki",
+        "color": "#EA5B04",
+        "id_city": "1"
+    },
+    {
+        "id": "54",
+        "name": "Владыкино",
+        "descriptor": "vladykino",
+        "color": "#ADACAC",
+        "id_city": "1"
+    },
+    {
+        "id": "55",
+        "name": "Владыкино МЦК",
+        "descriptor": "vladykino_mck",
+        "color": "#F9BCD1",
+        "id_city": "1"
+    },
+    {
+        "id": "56",
+        "name": "Водники МЦД",
+        "descriptor": "vodniki_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "57",
+        "name": "Водный стадион",
+        "descriptor": "vodnyy_stadion",
+        "color": "#4FB04F",
+        "id_city": "1"
+    },
+    {
+        "id": "58",
+        "name": "Войковская",
+        "descriptor": "voykovskaya",
+        "color": "#4FB04F",
+        "id_city": "1"
+    },
+    {
+        "id": "59",
+        "name": "Волгоградский проспект",
+        "descriptor": "volgogradskiy_prospekt",
+        "color": "#943E90",
+        "id_city": "1"
+    },
+    {
+        "id": "60",
+        "name": "Волжская",
+        "descriptor": "volzhskaya",
+        "color": "#BED12C",
+        "id_city": "1"
+    },
+    {
+        "id": "61",
+        "name": "Волоколамская",
+        "descriptor": "volokolamskaya",
+        "color": "#0072BA",
+        "id_city": "1"
+    },
+    {
+        "id": "62",
+        "name": "Волоколамская МЦД",
+        "descriptor": "volokolamskaya_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "63",
+        "name": "Воробьевы горы",
+        "descriptor": "vorobevy_gory",
+        "color": "#E42313",
+        "id_city": "1"
+    },
+    {
+        "id": "64",
+        "name": "Воронцовская",
+        "descriptor": "voroncovskaya",
+        "color": "#88CDCF",
+        "id_city": "1"
+    },
+    {
+        "id": "65",
+        "name": "Выставочная",
+        "descriptor": "vystavochnaya",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "66",
+        "name": "Выхино",
+        "descriptor": "vyhino",
+        "color": "#943E90",
+        "id_city": "1"
+    },
+    {
+        "id": "67",
+        "name": "Говорово",
+        "descriptor": "govorovo",
+        "color": "#FFCD1C",
+        "id_city": "1"
+    },
+    {
+        "id": "68",
+        "name": "Гражданская МЦД",
+        "descriptor": "grazhdanskaya_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "69",
+        "name": "Грачёвская",
+        "descriptor": "grachevskaya",
+        "color": "#EA5B04",
+        "id_city": "1"
+    },
+    {
+        "id": "70",
+        "name": "Давыдково",
+        "descriptor": "davydkovo",
+        "color": "#88CDCF",
+        "id_city": "1"
+    },
+    {
+        "id": "71",
+        "name": "Дегунино МЦД",
+        "descriptor": "degunino_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "72",
+        "name": "Деловой центр",
+        "descriptor": "delovoy_centr",
+        "color": "#1EBCEF",
+        "id_city": "1"
+    },
+    {
+        "id": "73",
+        "name": "Деловой центр МЦК",
+        "descriptor": "delovoy_centr_mck",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "74",
+        "name": "Депо МЦД",
+        "descriptor": "depo_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "75",
+        "name": "Динамо",
+        "descriptor": "dinamo",
+        "color": "#4FB04F",
+        "id_city": "1"
+    },
+    {
+        "id": "76",
+        "name": "Дмитровская",
+        "descriptor": "dmitrovskaya",
+        "color": "#ADACAC",
+        "id_city": "1"
+    },
+    {
+        "id": "77",
+        "name": "Дмитровская МЦД",
+        "descriptor": "dmitrovskaya_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "78",
+        "name": "Добрынинская",
+        "descriptor": "dobryninskaya",
+        "color": "#915133",
+        "id_city": "1"
+    },
+    {
+        "id": "79",
+        "name": "Долгопрудная МЦД",
+        "descriptor": "dolgoprudnaya_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "80",
+        "name": "Домодедовская",
+        "descriptor": "domodedovskaya",
+        "color": "#4FB04F",
+        "id_city": "1"
+    },
+    {
+        "id": "81",
+        "name": "Достоевская",
+        "descriptor": "dostoevskaya",
+        "color": "#BED12C",
+        "id_city": "1"
+    },
+    {
+        "id": "82",
+        "name": "Дубровка",
+        "descriptor": "dubrovka",
+        "color": "#BED12C",
+        "id_city": "1"
+    },
+    {
+        "id": "83",
+        "name": "Дубровка МЦК",
+        "descriptor": "dubrovka_mck",
+        "color": "#F9BCD1",
+        "id_city": "1"
+    },
+    {
+        "id": "84",
+        "name": "Есенинская",
+        "descriptor": "eseninskaya",
+        "color": "#EA5B04",
+        "id_city": "1"
+    },
+    {
+        "id": "85",
+        "name": "Жулебино",
+        "descriptor": "zhulebino",
+        "color": "#943E90",
+        "id_city": "1"
+    },
+    {
+        "id": "86",
+        "name": "Зеленоград",
+        "descriptor": "zelenograd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "87",
+        "name": "ЗИЛ МЦК",
+        "descriptor": "zil_mck",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "88",
+        "name": "Зорге МЦК",
+        "descriptor": "zorge_mck",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "89",
+        "name": "Зюзино",
+        "descriptor": "zyuzino",
+        "color": "#88CDCF",
+        "id_city": "1"
+    },
+    {
+        "id": "90",
+        "name": "Зябликово",
+        "descriptor": "zyablikovo",
+        "color": "#BED12C",
+        "id_city": "1"
+    },
+    {
+        "id": "91",
+        "name": "Измайлово МЦК",
+        "descriptor": "izmaylovo_mck",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "92",
+        "name": "Измайловская",
+        "descriptor": "izmaylovskaya",
+        "color": "#0072BA",
+        "id_city": "1"
+    },
+    {
+        "id": "93",
+        "name": "Илимская МЦД",
+        "descriptor": "ilimskaya_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "94",
+        "name": "Ильинская",
+        "descriptor": "ilinskaya",
+        "color": "#EA5B04",
+        "id_city": "1"
+    },
+    {
+        "id": "95",
+        "name": "Ипподром",
+        "descriptor": "ippodrom",
+        "color": "#EA5B04",
+        "id_city": "1"
+    },
+    {
+        "id": "96",
+        "name": "Каланчёвская МЦД",
+        "descriptor": "kalanchevskaya_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "97",
+        "name": "Калитники МЦД",
+        "descriptor": "kalitniki_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "98",
+        "name": "Калужская",
+        "descriptor": "kaluzhskaya",
+        "color": "#F07E24",
+        "id_city": "1"
+    },
+    {
+        "id": "99",
+        "name": "Кантемировская",
+        "descriptor": "kantemirovskaya",
+        "color": "#4FB04F",
+        "id_city": "1"
+    },
+    {
+        "id": "100",
+        "name": "Каховская",
+        "descriptor": "kahovskaya",
+        "color": "#88CDCF",
+        "id_city": "1"
+    },
+    {
+        "id": "101",
+        "name": "Каширская",
+        "descriptor": "kashirskaya",
+        "color": "#4FB04F",
+        "id_city": "1"
+    },
+    {
+        "id": "102",
+        "name": "Киевская",
+        "descriptor": "kievskaya",
+        "color": "#0072BA",
+        "id_city": "1"
+    },
+    {
+        "id": "103",
+        "name": "Китай-город",
+        "descriptor": "kitay-gorod",
+        "color": "#F07E24",
+        "id_city": "1"
+    },
+    {
+        "id": "104",
+        "name": "Кленовый бульвар",
+        "descriptor": "klenovyy_bulvar",
+        "color": "#88CDCF",
+        "id_city": "1"
+    },
+    {
+        "id": "105",
+        "name": "Кожуховская",
+        "descriptor": "kozhuhovskaya",
+        "color": "#BED12C",
+        "id_city": "1"
+    },
+    {
+        "id": "106",
+        "name": "Коломенская",
+        "descriptor": "kolomenskaya",
+        "color": "#4FB04F",
+        "id_city": "1"
+    },
+    {
+        "id": "107",
+        "name": "Коммунарка",
+        "descriptor": "kommunarka",
+        "color": "#027762",
+        "id_city": "1"
+    },
+    {
+        "id": "108",
+        "name": "Комсомольская",
+        "descriptor": "komsomolskaya",
+        "color": "#E42313",
+        "id_city": "1"
+    },
+    {
+        "id": "109",
+        "name": "Коньково",
+        "descriptor": "konkovo",
+        "color": "#F07E24",
+        "id_city": "1"
+    },
+    {
+        "id": "110",
+        "name": "Коптево МЦК",
+        "descriptor": "koptevo_mck",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "111",
+        "name": "Косино",
+        "descriptor": "kosino",
+        "color": "#CC0066",
+        "id_city": "1"
+    },
+    {
+        "id": "112",
+        "name": "Котельники ",
+        "descriptor": "kotelniki_",
+        "color": "#943E90",
+        "id_city": "1"
+    },
+    {
+        "id": "113",
+        "name": "Котляково МЦД",
+        "descriptor": "kotlyakovo_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "114",
+        "name": "Красково",
+        "descriptor": "kraskovo",
+        "color": "#EA5B04",
+        "id_city": "1"
+    },
+    {
+        "id": "115",
+        "name": "Красногвардейская",
+        "descriptor": "krasnogvardeyskaya",
+        "color": "#4FB04F",
+        "id_city": "1"
+    },
+    {
+        "id": "116",
+        "name": "Красногорская МЦД",
+        "descriptor": "krasnogorskaya_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "117",
+        "name": "Краснопресненская",
+        "descriptor": "krasnopresnenskaya",
+        "color": "#915133",
+        "id_city": "1"
+    },
+    {
+        "id": "118",
+        "name": "Красносельская",
+        "descriptor": "krasnoselskaya",
+        "color": "#E42313",
+        "id_city": "1"
+    },
+    {
+        "id": "119",
+        "name": "Красные ворота",
+        "descriptor": "krasnye_vorota",
+        "color": "#E42313",
+        "id_city": "1"
+    },
+    {
+        "id": "120",
+        "name": "Красный Балтиец МЦД",
+        "descriptor": "krasnyy_baltiec_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "121",
+        "name": "Красный Строитель МЦД",
+        "descriptor": "krasnyy_stroitel_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "122",
+        "name": "Кратово",
+        "descriptor": "kratovo",
+        "color": "#EA5B04",
+        "id_city": "1"
+    },
+    {
+        "id": "123",
+        "name": "Крестьянская застава",
+        "descriptor": "krestyanskaya_zastava",
+        "color": "#BED12C",
+        "id_city": "1"
+    },
+    {
+        "id": "124",
+        "name": "Кропоткинская",
+        "descriptor": "kropotkinskaya",
+        "color": "#E42313",
+        "id_city": "1"
+    },
+    {
+        "id": "125",
+        "name": "Крылатское",
+        "descriptor": "krylatskoe",
+        "color": "#0072BA",
+        "id_city": "1"
+    },
+    {
+        "id": "126",
+        "name": "Крымская МЦК",
+        "descriptor": "krymskaya_mck",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "127",
+        "name": "Кубанская МЦД",
+        "descriptor": "kubanskaya_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "128",
+        "name": "Кузнецкий мост",
+        "descriptor": "kuzneckiy_most",
+        "color": "#943E90",
+        "id_city": "1"
+    },
+    {
+        "id": "129",
+        "name": "Кузьминки",
+        "descriptor": "kuzminki",
+        "color": "#943E90",
+        "id_city": "1"
+    },
+    {
+        "id": "130",
+        "name": "Кунцевская",
+        "descriptor": "kuncevskaya",
+        "color": "#0072BA",
+        "id_city": "1"
+    },
+    {
+        "id": "131",
+        "name": "Кунцевская МЦД",
+        "descriptor": "kuncevskaya_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "132",
+        "name": "Курская",
+        "descriptor": "kurskaya",
+        "color": "#0072BA",
+        "id_city": "1"
+    },
+    {
+        "id": "133",
+        "name": "Курская МЦД",
+        "descriptor": "kurskaya_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "134",
+        "name": "Курьяново МЦД",
+        "descriptor": "kuryanovo_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "135",
+        "name": "Кутузовская",
+        "descriptor": "kutuzovskaya",
+        "color": "#1EBCEF",
+        "id_city": "1"
+    },
+    {
+        "id": "136",
+        "name": "Кутузовская МЦК",
+        "descriptor": "kutuzovskaya_mck",
+        "color": "#F9BCD1",
+        "id_city": "1"
+    },
+    {
+        "id": "137",
+        "name": "Левобережная",
+        "descriptor": "levoberezhnaya",
+        "color": "#EA5B04",
+        "id_city": "1"
+    },
+    {
+        "id": "138",
+        "name": "Ленинский проспект",
+        "descriptor": "leninskiy_prospekt",
+        "color": "#F07E24",
+        "id_city": "1"
+    },
+    {
+        "id": "139",
+        "name": "Лермонтовский проспект",
+        "descriptor": "lermontovskiy_prospekt",
+        "color": "#943E90",
+        "id_city": "1"
+    },
+    {
+        "id": "140",
+        "name": "Лесопарковая",
+        "descriptor": "lesoparkovaya",
+        "color": "#BAC8E8",
+        "id_city": "1"
+    },
+    {
+        "id": "141",
+        "name": "Лефортово",
+        "descriptor": "lefortovo",
+        "color": "#88CDCF",
+        "id_city": "1"
+    },
+    {
+        "id": "142",
+        "name": "Лианозово МЦД",
+        "descriptor": "lianozovo_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "143",
+        "name": "Лихоборы МЦК",
+        "descriptor": "lihobory_mck",
+        "color": "#F9BCD1",
+        "id_city": "1"
+    },
+    {
+        "id": "144",
+        "name": "Лобня МЦД",
+        "descriptor": "lobnya_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "145",
+        "name": "Локомотив МЦК",
+        "descriptor": "lokomotiv_mck",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "146",
+        "name": "Ломоносовский проспект",
+        "descriptor": "lomonosovskiy_prospekt",
+        "color": "#FFCD1C",
+        "id_city": "1"
+    },
+    {
+        "id": "147",
+        "name": "Лубянка",
+        "descriptor": "lubyanka",
+        "color": "#E42313",
+        "id_city": "1"
+    },
+    {
+        "id": "148",
+        "name": "Лужники МЦК",
+        "descriptor": "luzhniki_mck",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "149",
+        "name": "Лухмановская",
+        "descriptor": "luhmanovskaya",
+        "color": "#CC0066",
+        "id_city": "1"
+    },
+    {
+        "id": "150",
+        "name": "Люберцы",
+        "descriptor": "lyubercy",
+        "color": "#EA5B04",
+        "id_city": "1"
+    },
+    {
+        "id": "151",
+        "name": "Люблино",
+        "descriptor": "lyublino",
+        "color": "#BED12C",
+        "id_city": "1"
+    },
+    {
+        "id": "152",
+        "name": "Малаховка",
+        "descriptor": "malahovka",
+        "color": "#EA5B04",
+        "id_city": "1"
+    },
+    {
+        "id": "153",
+        "name": "Малино",
+        "descriptor": "malino",
+        "color": "#EA5B04",
+        "id_city": "1"
+    },
+    {
+        "id": "154",
+        "name": "Марк МЦД",
+        "descriptor": "mark_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "155",
+        "name": "Марксистская",
+        "descriptor": "marksistskaya",
+        "color": "#FFCD1C",
+        "id_city": "1"
+    },
+    {
+        "id": "156",
+        "name": "Марьина Роща",
+        "descriptor": "marina_roscha",
+        "color": "#BED12C",
+        "id_city": "1"
+    },
+    {
+        "id": "157",
+        "name": "Марьина Роща МЦД",
+        "descriptor": "marina_roscha_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "158",
+        "name": "Марьино",
+        "descriptor": "marino",
+        "color": "#BED12C",
+        "id_city": "1"
+    },
+    {
+        "id": "159",
+        "name": "Матвеевская",
+        "descriptor": "matveevskaya",
+        "color": "#00CC66",
+        "id_city": "1"
+    },
+    {
+        "id": "160",
+        "name": "Маяковская",
+        "descriptor": "mayakovskaya",
+        "color": "#4FB04F",
+        "id_city": "1"
+    },
+    {
+        "id": "161",
+        "name": "Медведково",
+        "descriptor": "medvedkovo",
+        "color": "#F07E24",
+        "id_city": "1"
+    },
+    {
+        "id": "162",
+        "name": "Международная",
+        "descriptor": "mezhdunarodnaya",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "163",
+        "name": "Менделеевская",
+        "descriptor": "mendeleevskaya",
+        "color": "#ADACAC",
+        "id_city": "1"
+    },
+    {
+        "id": "164",
+        "name": "Мещерская",
+        "descriptor": "mescherskaya",
+        "color": "#00CC66",
+        "id_city": "1"
+    },
+    {
+        "id": "165",
+        "name": "Минская",
+        "descriptor": "minskaya",
+        "color": "#FFCD1C",
+        "id_city": "1"
+    },
+    {
+        "id": "166",
+        "name": "Митино",
+        "descriptor": "mitino",
+        "color": "#0072BA",
+        "id_city": "1"
+    },
+    {
+        "id": "167",
+        "name": "Мичуринский проспект",
+        "descriptor": "michurinskiy_prospekt",
+        "color": "#FFCD1C",
+        "id_city": "1"
+    },
+    {
+        "id": "168",
+        "name": "Мневники",
+        "descriptor": "mnevniki",
+        "color": "#88CDCF",
+        "id_city": "1"
+    },
+    {
+        "id": "169",
+        "name": "Молжаниново",
+        "descriptor": "molzhaninovo",
+        "color": "#EA5B04",
+        "id_city": "1"
+    },
+    {
+        "id": "170",
+        "name": "Молодежная",
+        "descriptor": "molodezhnaya",
+        "color": "#0072BA",
+        "id_city": "1"
+    },
+    {
+        "id": "171",
+        "name": "Москва Товарная МЦД",
+        "descriptor": "moskva_tovarnaya_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "172",
+        "name": "Москворечье МЦД",
+        "descriptor": "moskvoreche_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "173",
+        "name": "Моссельмаш",
+        "descriptor": "mosselmash",
+        "color": "#EA5B04",
+        "id_city": "1"
+    },
+    {
+        "id": "174",
+        "name": "Мякинино",
+        "descriptor": "myakinino",
+        "color": "#0072BA",
+        "id_city": "1"
+    },
+    {
+        "id": "175",
+        "name": "Нагатинская",
+        "descriptor": "nagatinskaya",
+        "color": "#ADACAC",
+        "id_city": "1"
+    },
+    {
+        "id": "176",
+        "name": "Нагатинский затон",
+        "descriptor": "nagatinskiy_zaton",
+        "color": "#88CDCF",
+        "id_city": "1"
+    },
+    {
+        "id": "177",
+        "name": "Нагорная",
+        "descriptor": "nagornaya",
+        "color": "#ADACAC",
+        "id_city": "1"
+    },
+    {
+        "id": "178",
+        "name": "Народное Ополчение",
+        "descriptor": "narodnoe_opolchenie",
+        "color": "#88CDCF",
+        "id_city": "1"
+    },
+    {
+        "id": "179",
+        "name": "Нахабино МЦД",
+        "descriptor": "nahabino_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "180",
+        "name": "Нахимовский проспект",
+        "descriptor": "nahimovskiy_prospekt",
+        "color": "#ADACAC",
+        "id_city": "1"
+    },
+    {
+        "id": "181",
+        "name": "Некрасовка",
+        "descriptor": "nekrasovka",
+        "color": "#CC0066",
+        "id_city": "1"
+    },
+    {
+        "id": "182",
+        "name": "Немчиновка МЦД",
+        "descriptor": "nemchinovka_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "183",
+        "name": "Нижегородская",
+        "descriptor": "nizhegorodskaya",
+        "color": "#88CDCF",
+        "id_city": "1"
+    },
+    {
+        "id": "184",
+        "name": "Нижегородская МЦК",
+        "descriptor": "nizhegorodskaya_mck",
+        "color": "#F9BCD1",
+        "id_city": "1"
+    },
+    {
+        "id": "185",
+        "name": "Новаторская",
+        "descriptor": "novatorskaya",
+        "color": "#88CDCF",
+        "id_city": "1"
+    },
+    {
+        "id": "186",
+        "name": "Новогиреево",
+        "descriptor": "novogireevo",
+        "color": "#FFCD1C",
+        "id_city": "1"
+    },
+    {
+        "id": "187",
+        "name": "Новодачная МЦД",
+        "descriptor": "novodachnaya_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "188",
+        "name": "Новокосино",
+        "descriptor": "novokosino",
+        "color": "#FFCD1C",
+        "id_city": "1"
+    },
+    {
+        "id": "189",
+        "name": "Новокузнецкая",
+        "descriptor": "novokuzneckaya",
+        "color": "#4FB04F",
+        "id_city": "1"
+    },
+    {
+        "id": "190",
+        "name": "Новопеределкино",
+        "descriptor": "novoperedelkino",
+        "color": "#FFCD1C",
+        "id_city": "1"
+    },
+    {
+        "id": "191",
+        "name": "Новоподрезково",
+        "descriptor": "novopodrezkovo",
+        "color": "#EA5B04",
+        "id_city": "1"
+    },
+    {
+        "id": "192",
+        "name": "Новослободская",
+        "descriptor": "novoslobodskaya",
+        "color": "#915133",
+        "id_city": "1"
+    },
+    {
+        "id": "193",
+        "name": "Новохохловская",
+        "descriptor": "novohohlovskaya",
+        "color": "#F9BCD1",
+        "id_city": "1"
+    },
+    {
+        "id": "194",
+        "name": "Новоясеневская",
+        "descriptor": "novoyasenevskaya",
+        "color": "#F07E24",
+        "id_city": "1"
+    },
+    {
+        "id": "195",
+        "name": "Новые Черемушки",
+        "descriptor": "novye_cheremushki",
+        "color": "#F07E24",
+        "id_city": "1"
+    },
+    {
+        "id": "196",
+        "name": "Одинцово",
+        "descriptor": "odincovo",
+        "color": "#FF6000",
+        "id_city": "1"
+    },
+    {
+        "id": "197",
+        "name": "Озёрная",
+        "descriptor": "ozernaya",
+        "color": "#FFCD1C",
+        "id_city": "1"
+    },
+    {
+        "id": "198",
+        "name": "Окружная",
+        "descriptor": "okruzhnaya",
+        "color": "#BED12C",
+        "id_city": "1"
+    },
+    {
+        "id": "199",
+        "name": "Окружная МЦК",
+        "descriptor": "okruzhnaya_mck",
+        "color": "#F9BCD1",
+        "id_city": "1"
+    },
+    {
+        "id": "200",
+        "name": "Окская",
+        "descriptor": "okskaya",
+        "color": "#CC0066",
+        "id_city": "1"
+    },
+    {
+        "id": "201",
+        "name": "Октябрьская",
+        "descriptor": "oktyabrskaya",
+        "color": "#915133",
+        "id_city": "1"
+    },
+    {
+        "id": "202",
+        "name": "Октябрьское поле",
+        "descriptor": "oktyabrskoe_pole",
+        "color": "#943E90",
+        "id_city": "1"
+    },
+    {
+        "id": "203",
+        "name": "Ольховая",
+        "descriptor": "olhovaya",
+        "color": "#E42313",
+        "id_city": "1"
+    },
+    {
+        "id": "204",
+        "name": "Опалиха МЦД",
+        "descriptor": "opaliha_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "205",
+        "name": "Орехово",
+        "descriptor": "orehovo",
+        "color": "#4FB04F",
+        "id_city": "1"
+    },
+    {
+        "id": "206",
+        "name": "Остафьево МЦД",
+        "descriptor": "ostafevo_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "207",
+        "name": "Отрадное",
+        "descriptor": "otradnoe",
+        "color": "#ADACAC",
+        "id_city": "1"
+    },
+    {
+        "id": "208",
+        "name": "Охотный ряд",
+        "descriptor": "ohotnyy_ryad",
+        "color": "#E42313",
+        "id_city": "1"
+    },
+    {
+        "id": "209",
+        "name": "Очаково",
+        "descriptor": "ochakovo",
+        "color": "#00CC66",
+        "id_city": "1"
+    },
+    {
+        "id": "210",
+        "name": "Павелецкая",
+        "descriptor": "paveleckaya",
+        "color": "#4FB04F",
+        "id_city": "1"
+    },
+    {
+        "id": "211",
+        "name": "Павшино МЦД",
+        "descriptor": "pavshino_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "212",
+        "name": "Панки",
+        "descriptor": "panki",
+        "color": "#EA5B04",
+        "id_city": "1"
+    },
+    {
+        "id": "213",
+        "name": "Панфиловская МЦК",
+        "descriptor": "panfilovskaya_mck",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "214",
+        "name": "Парк культуры",
+        "descriptor": "park_kultury",
+        "color": "#E42313",
+        "id_city": "1"
+    },
+    {
+        "id": "215",
+        "name": "Парк Победы",
+        "descriptor": "park_pobedy",
+        "color": "#0072BA",
+        "id_city": "1"
+    },
+    {
+        "id": "216",
+        "name": "Партизанская",
+        "descriptor": "partizanskaya",
+        "color": "#0072BA",
+        "id_city": "1"
+    },
+    {
+        "id": "217",
+        "name": "Пенягино МЦД",
+        "descriptor": "penyagino_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "218",
+        "name": "Первомайская",
+        "descriptor": "pervomayskaya",
+        "color": "#0072BA",
+        "id_city": "1"
+    },
+    {
+        "id": "219",
+        "name": "Переделкино",
+        "descriptor": "peredelkino",
+        "color": "#00CC66",
+        "id_city": "1"
+    },
+    {
+        "id": "220",
+        "name": "Перерва МЦД",
+        "descriptor": "pererva_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "221",
+        "name": "Перово",
+        "descriptor": "perovo",
+        "color": "#FFCD1C",
+        "id_city": "1"
+    },
+    {
+        "id": "222",
+        "name": "Петровский парк",
+        "descriptor": "petrovskiy_park",
+        "color": "#88CDCF",
+        "id_city": "1"
+    },
+    {
+        "id": "223",
+        "name": "Петровско-Разумовская",
+        "descriptor": "petrovsko-razumovskaya",
+        "color": "#ADACAC",
+        "id_city": "1"
+    },
+    {
+        "id": "224",
+        "name": "Петровско-Разумовская МЦД",
+        "descriptor": "petrovsko-razumovskaya_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "225",
+        "name": "Печатники",
+        "descriptor": "pechatniki",
+        "color": "#BED12C",
+        "id_city": "1"
+    },
+    {
+        "id": "226",
+        "name": "Печатники МЦД",
+        "descriptor": "pechatniki_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "227",
+        "name": "Пионерская",
+        "descriptor": "pionerskaya",
+        "color": "#1EBCEF",
+        "id_city": "1"
+    },
+    {
+        "id": "228",
+        "name": "Планерная",
+        "descriptor": "planernaya",
+        "color": "#943E90",
+        "id_city": "1"
+    },
+    {
+        "id": "229",
+        "name": "Площадь Гагарина МЦК",
+        "descriptor": "ploschad_gagarina_mck",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "230",
+        "name": "Площадь Ильича",
+        "descriptor": "ploschad_ilicha",
+        "color": "#FFCD1C",
+        "id_city": "1"
+    },
+    {
+        "id": "231",
+        "name": "Площадь революции",
+        "descriptor": "ploschad_revolyucii",
+        "color": "#0072BA",
+        "id_city": "1"
+    },
+    {
+        "id": "232",
+        "name": "Плющево",
+        "descriptor": "plyuschevo",
+        "color": "#EA5B04",
+        "id_city": "1"
+    },
+    {
+        "id": "233",
+        "name": "Подольск МЦД",
+        "descriptor": "podolsk_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "234",
+        "name": "Подрезково",
+        "descriptor": "podrezkovo",
+        "color": "#EA5B04",
+        "id_city": "1"
+    },
+    {
+        "id": "235",
+        "name": "Покровское МЦД",
+        "descriptor": "pokrovskoe_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "236",
+        "name": "Покровское-Стрешнево МЦД",
+        "descriptor": "pokrovskoe-streshnevo_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "237",
+        "name": "Полежаевская",
+        "descriptor": "polezhaevskaya",
+        "color": "#943E90",
+        "id_city": "1"
+    },
+    {
+        "id": "238",
+        "name": "Полянка",
+        "descriptor": "polyanka",
+        "color": "#ADACAC",
+        "id_city": "1"
+    },
+    {
+        "id": "239",
+        "name": "Пражская",
+        "descriptor": "prazhskaya",
+        "color": "#ADACAC",
+        "id_city": "1"
+    },
+    {
+        "id": "240",
+        "name": "Преображенская площадь",
+        "descriptor": "preobrazhenskaya_ploschad",
+        "color": "#E42313",
+        "id_city": "1"
+    },
+    {
+        "id": "241",
+        "name": "Прокшино",
+        "descriptor": "prokshino",
+        "color": "#E42313",
+        "id_city": "1"
+    },
+    {
+        "id": "242",
+        "name": "Пролетарская",
+        "descriptor": "proletarskaya",
+        "color": "#943E90",
+        "id_city": "1"
+    },
+    {
+        "id": "243",
+        "name": "Проспект Вернадского",
+        "descriptor": "prospekt_vernadskogo",
+        "color": "#E42313",
+        "id_city": "1"
+    },
+    {
+        "id": "244",
+        "name": "Проспект Мира",
+        "descriptor": "prospekt_mira",
+        "color": "#915133",
+        "id_city": "1"
+    },
+    {
+        "id": "245",
+        "name": "Профсоюзная",
+        "descriptor": "profsoyuznaya",
+        "color": "#F07E24",
+        "id_city": "1"
+    },
+    {
+        "id": "246",
+        "name": "Пушкинская",
+        "descriptor": "pushkinskaya",
+        "color": "#943E90",
+        "id_city": "1"
+    },
+    {
+        "id": "247",
+        "name": "Пыхтино",
+        "descriptor": "pyhtino",
+        "color": "#FFCD1C",
+        "id_city": "1"
+    },
+    {
+        "id": "248",
+        "name": "Пятницкое шоссе",
+        "descriptor": "pyatnickoe_shosse",
+        "color": "#0072BA",
+        "id_city": "1"
+    },
+    {
+        "id": "249",
+        "name": "Рабочий Поселок МЦД",
+        "descriptor": "rabochiy_poselok_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "250",
+        "name": "Раменки",
+        "descriptor": "ramenki",
+        "color": "#FFCD1C",
+        "id_city": "1"
+    },
+    {
+        "id": "251",
+        "name": "Раменское",
+        "descriptor": "ramenskoe",
+        "color": "#EA5B04",
+        "id_city": "1"
+    },
+    {
+        "id": "252",
+        "name": "Рассказовка",
+        "descriptor": "rasskazovka",
+        "color": "#FFCD1C",
+        "id_city": "1"
+    },
+    {
+        "id": "253",
+        "name": "Речной вокзал",
+        "descriptor": "rechnoy_vokzal",
+        "color": "#4FB04F",
+        "id_city": "1"
+    },
+    {
+        "id": "254",
+        "name": "Рижская",
+        "descriptor": "rizhskaya",
+        "color": "#F07E24",
+        "id_city": "1"
+    },
+    {
+        "id": "255",
+        "name": "Рижская МЦД",
+        "descriptor": "rizhskaya_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "256",
+        "name": "Римская",
+        "descriptor": "rimskaya",
+        "color": "#BED12C",
+        "id_city": "1"
+    },
+    {
+        "id": "257",
+        "name": "Ростокино МЦК",
+        "descriptor": "rostokino_mck",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "258",
+        "name": "Румянцево",
+        "descriptor": "rumyancevo",
+        "color": "#E42313",
+        "id_city": "1"
+    },
+    {
+        "id": "259",
+        "name": "Рязанский проспект",
+        "descriptor": "ryazanskiy_prospekt",
+        "color": "#943E90",
+        "id_city": "1"
+    },
+    {
+        "id": "260",
+        "name": "Савеловская",
+        "descriptor": "savelovskaya",
+        "color": "#ADACAC",
+        "id_city": "1"
+    },
+    {
+        "id": "261",
+        "name": "Савёловская МЦД",
+        "descriptor": "savelovskaya_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "262",
+        "name": "Саларьево",
+        "descriptor": "salarevo",
+        "color": "#E42313",
+        "id_city": "1"
+    },
+    {
+        "id": "263",
+        "name": "Свиблово",
+        "descriptor": "sviblovo",
+        "color": "#F07E24",
+        "id_city": "1"
+    },
+    {
+        "id": "264",
+        "name": "Севастопольская",
+        "descriptor": "sevastopolskaya",
+        "color": "#ADACAC",
+        "id_city": "1"
+    },
+    {
+        "id": "265",
+        "name": "Селигерская",
+        "descriptor": "seligerskaya",
+        "color": "#BED12C",
+        "id_city": "1"
+    },
+    {
+        "id": "266",
+        "name": "Семеновская",
+        "descriptor": "semenovskaya",
+        "color": "#0072BA",
+        "id_city": "1"
+    },
+    {
+        "id": "267",
+        "name": "Серпуховская",
+        "descriptor": "serpuhovskaya",
+        "color": "#ADACAC",
+        "id_city": "1"
+    },
+    {
+        "id": "268",
+        "name": "Сетунь МЦД",
+        "descriptor": "setun_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "269",
+        "name": "Силикатная МЦД",
+        "descriptor": "silikatnaya_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "270",
+        "name": "Сколково МЦД",
+        "descriptor": "skolkovo_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "271",
+        "name": "Славянский бульвар",
+        "descriptor": "slavyanskiy_bulvar",
+        "color": "#0072BA",
+        "id_city": "1"
+    },
+    {
+        "id": "272",
+        "name": "Славянский бульвар МЦД",
+        "descriptor": "slavyanskiy_bulvar_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "273",
+        "name": "Смоленская",
+        "descriptor": "smolenskaya",
+        "color": "#0072BA",
+        "id_city": "1"
+    },
+    {
+        "id": "274",
+        "name": "Сокол",
+        "descriptor": "sokol",
+        "color": "#4FB04F",
+        "id_city": "1"
+    },
+    {
+        "id": "275",
+        "name": "Соколиная Гора МЦК",
+        "descriptor": "sokolinaya_gora_mck",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "276",
+        "name": "Сокольники",
+        "descriptor": "sokolniki",
+        "color": "#E42313",
+        "id_city": "1"
+    },
+    {
+        "id": "277",
+        "name": "Солнцево",
+        "descriptor": "solncevo",
+        "color": "#FFCD1C",
+        "id_city": "1"
+    },
+    {
+        "id": "278",
+        "name": "Спартак",
+        "descriptor": "spartak",
+        "color": "#943E90",
+        "id_city": "1"
+    },
+    {
+        "id": "279",
+        "name": "Спортивная",
+        "descriptor": "sportivnaya",
+        "color": "#E42313",
+        "id_city": "1"
+    },
+    {
+        "id": "280",
+        "name": "Сретенский бульвар",
+        "descriptor": "sretenskiy_bulvar",
+        "color": "#BED12C",
+        "id_city": "1"
+    },
+    {
+        "id": "281",
+        "name": "Стахановская",
+        "descriptor": "stahanovskaya",
+        "color": "#CC0066",
+        "id_city": "1"
+    },
+    {
+        "id": "282",
+        "name": "Стрешнево МЦК",
+        "descriptor": "streshnevo_mck",
+        "color": "#F9BCD1",
+        "id_city": "1"
+    },
+    {
+        "id": "283",
+        "name": "Строгино",
+        "descriptor": "strogino",
+        "color": "#0072BA",
+        "id_city": "1"
+    },
+    {
+        "id": "284",
+        "name": "Студенческая",
+        "descriptor": "studencheskaya",
+        "color": "#1EBCEF",
+        "id_city": "1"
+    },
+    {
+        "id": "285",
+        "name": "Сухаревская",
+        "descriptor": "suharevskaya",
+        "color": "#F07E24",
+        "id_city": "1"
+    },
+    {
+        "id": "286",
+        "name": "Сходненская",
+        "descriptor": "shodnenskaya",
+        "color": "#943E90",
+        "id_city": "1"
+    },
+    {
+        "id": "287",
+        "name": "Сходня",
+        "descriptor": "shodnya",
+        "color": "#EA5B04",
+        "id_city": "1"
+    },
+    {
+        "id": "288",
+        "name": "Таганская",
+        "descriptor": "taganskaya",
+        "color": "#915133",
+        "id_city": "1"
+    },
+    {
+        "id": "289",
+        "name": "Тверская",
+        "descriptor": "tverskaya",
+        "color": "#4FB04F",
+        "id_city": "1"
+    },
+    {
+        "id": "290",
+        "name": "Театральная",
+        "descriptor": "teatralnaya",
+        "color": "#4FB04F",
+        "id_city": "1"
+    },
+    {
+        "id": "291",
+        "name": "Текстильщики",
+        "descriptor": "tekstilschiki",
+        "color": "#943E90",
+        "id_city": "1"
+    },
+    {
+        "id": "292",
+        "name": "Текстильщики МЦД",
+        "descriptor": "tekstilschiki_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "293",
+        "name": "Теплый стан",
+        "descriptor": "teplyy_stan",
+        "color": "#F07E24",
+        "id_city": "1"
+    },
+    {
+        "id": "294",
+        "name": "Терехово",
+        "descriptor": "terehovo",
+        "color": "#88CDCF",
+        "id_city": "1"
+    },
+    {
+        "id": "295",
+        "name": "Тестовская МЦД",
+        "descriptor": "testovskaya_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "296",
+        "name": "Технопарк",
+        "descriptor": "tehnopark",
+        "color": "#4FB04F",
+        "id_city": "1"
+    },
+    {
+        "id": "297",
+        "name": "Тимирязевская",
+        "descriptor": "timiryazevskaya",
+        "color": "#ADACAC",
+        "id_city": "1"
+    },
+    {
+        "id": "298",
+        "name": "Тимирязевская МЦД",
+        "descriptor": "timiryazevskaya_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "299",
+        "name": "Томилино",
+        "descriptor": "tomilino",
+        "color": "#EA5B04",
+        "id_city": "1"
+    },
+    {
+        "id": "300",
+        "name": "Третьяковская",
+        "descriptor": "tretyakovskaya",
+        "color": "#F07E24",
+        "id_city": "1"
+    },
+    {
+        "id": "301",
+        "name": "Трикотажная МЦД",
+        "descriptor": "trikotazhnaya_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "302",
+        "name": "Тропарёво",
+        "descriptor": "troparevo",
+        "color": "#E42313",
+        "id_city": "1"
+    },
+    {
+        "id": "303",
+        "name": "Трубная",
+        "descriptor": "trubnaya",
+        "color": "#BED12C",
+        "id_city": "1"
+    },
+    {
+        "id": "304",
+        "name": "Тульская",
+        "descriptor": "tulskaya",
+        "color": "#ADACAC",
+        "id_city": "1"
+    },
+    {
+        "id": "305",
+        "name": "Тургеневская",
+        "descriptor": "turgenevskaya",
+        "color": "#F07E24",
+        "id_city": "1"
+    },
+    {
+        "id": "306",
+        "name": "Тушинская",
+        "descriptor": "tushinskaya",
+        "color": "#943E90",
+        "id_city": "1"
+    },
+    {
+        "id": "307",
+        "name": "Тушинская МЦД",
+        "descriptor": "tushinskaya_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "308",
+        "name": "Угрешская МЦК",
+        "descriptor": "ugreshskaya_mck",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "309",
+        "name": "Удельная",
+        "descriptor": "udelnaya",
+        "color": "#EA5B04",
+        "id_city": "1"
+    },
+    {
+        "id": "310",
+        "name": "Улица 1905 года",
+        "descriptor": "ulica_1905_goda",
+        "color": "#943E90",
+        "id_city": "1"
+    },
+    {
+        "id": "311",
+        "name": "Улица Ак. Янгеля",
+        "descriptor": "ulica_ak._yangelya",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "312",
+        "name": "Улица Горчакова",
+        "descriptor": "ulica_gorchakova",
+        "color": "#BAC8E8",
+        "id_city": "1"
+    },
+    {
+        "id": "313",
+        "name": "Улица Дмитриевского",
+        "descriptor": "ulica_dmitrievskogo",
+        "color": "#CC0066",
+        "id_city": "1"
+    },
+    {
+        "id": "314",
+        "name": "Улица Скобелевская",
+        "descriptor": "ulica_skobelevskaya",
+        "color": "#BAC8E8",
+        "id_city": "1"
+    },
+    {
+        "id": "315",
+        "name": "Улица Старокачаловская",
+        "descriptor": "ulica_starokachalovskaya",
+        "color": "#BAC8E8",
+        "id_city": "1"
+    },
+    {
+        "id": "316",
+        "name": "Университет",
+        "descriptor": "universitet",
+        "color": "#E42313",
+        "id_city": "1"
+    },
+    {
+        "id": "317",
+        "name": "Ухтомская",
+        "descriptor": "uhtomskaya",
+        "color": "#EA5B04",
+        "id_city": "1"
+    },
+    {
+        "id": "318",
+        "name": "Фабричная",
+        "descriptor": "fabrichnaya",
+        "color": "#EA5B04",
+        "id_city": "1"
+    },
+    {
+        "id": "319",
+        "name": "Физтех",
+        "descriptor": "fizteh",
+        "color": "#BED12C",
+        "id_city": "1"
+    },
+    {
+        "id": "320",
+        "name": "Филатов луг",
+        "descriptor": "filatov_lug",
+        "color": "#E42313",
+        "id_city": "1"
+    },
+    {
+        "id": "321",
+        "name": "Филевский парк",
+        "descriptor": "filevskiy_park",
+        "color": "#1EBCEF",
+        "id_city": "1"
+    },
+    {
+        "id": "322",
+        "name": "Фили",
+        "descriptor": "fili",
+        "color": "#1EBCEF",
+        "id_city": "1"
+    },
+    {
+        "id": "323",
+        "name": "Фили МЦД",
+        "descriptor": "fili_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "324",
+        "name": "Фирсановская",
+        "descriptor": "firsanovskaya",
+        "color": "#EA5B04",
+        "id_city": "1"
+    },
+    {
+        "id": "325",
+        "name": "Фонвизинская",
+        "descriptor": "fonvizinskaya",
+        "color": "#BED12C",
+        "id_city": "1"
+    },
+    {
+        "id": "326",
+        "name": "Фрунзенская",
+        "descriptor": "frunzenskaya",
+        "color": "#E42313",
+        "id_city": "1"
+    },
+    {
+        "id": "327",
+        "name": "Химки",
+        "descriptor": "himki",
+        "color": "#EA5B04",
+        "id_city": "1"
+    },
+    {
+        "id": "328",
+        "name": "Хлебниково МЦД",
+        "descriptor": "hlebnikovo_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "329",
+        "name": "Ховрино",
+        "descriptor": "hovrino",
+        "color": "#4FB04F",
+        "id_city": "1"
+    },
+    {
+        "id": "330",
+        "name": "Хорошёво МЦК",
+        "descriptor": "horoshevo_mck",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "331",
+        "name": "Хорошёвская",
+        "descriptor": "horoshevskaya",
+        "color": "#88CDCF",
+        "id_city": "1"
+    },
+    {
+        "id": "332",
+        "name": "Царицыно",
+        "descriptor": "caricyno",
+        "color": "#4FB04F",
+        "id_city": "1"
+    },
+    {
+        "id": "333",
+        "name": "Царицыно МЦД",
+        "descriptor": "caricyno_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "334",
+        "name": "Цветной бульвар",
+        "descriptor": "cvetnoy_bulvar",
+        "color": "#ADACAC",
+        "id_city": "1"
+    },
+    {
+        "id": "335",
+        "name": "ЦСКА",
+        "descriptor": "cska",
+        "color": "#88CDCF",
+        "id_city": "1"
+    },
+    {
+        "id": "336",
+        "name": "Черкизовская",
+        "descriptor": "cherkizovskaya",
+        "color": "#E42313",
+        "id_city": "1"
+    },
+    {
+        "id": "337",
+        "name": "Чертановская",
+        "descriptor": "chertanovskaya",
+        "color": "#ADACAC",
+        "id_city": "1"
+    },
+    {
+        "id": "338",
+        "name": "Чеховская",
+        "descriptor": "chehovskaya",
+        "color": "#ADACAC",
+        "id_city": "1"
+    },
+    {
+        "id": "339",
+        "name": "Чистые пруды",
+        "descriptor": "chistye_prudy",
+        "color": "#E42313",
+        "id_city": "1"
+    },
+    {
+        "id": "340",
+        "name": "Чкаловская",
+        "descriptor": "chkalovskaya",
+        "color": "#BED12C",
+        "id_city": "1"
+    },
+    {
+        "id": "341",
+        "name": "Шаболовская",
+        "descriptor": "shabolovskaya",
+        "color": "#F07E24",
+        "id_city": "1"
+    },
+    {
+        "id": "342",
+        "name": "Шелепиха",
+        "descriptor": "shelepiha",
+        "color": "#F9BCD1",
+        "id_city": "1"
+    },
+    {
+        "id": "343",
+        "name": "Шелепиха МЦК",
+        "descriptor": "shelepiha_mck",
+        "color": "#F9BCD1",
+        "id_city": "1"
+    },
+    {
+        "id": "344",
+        "name": "Шереметьевская МЦД",
+        "descriptor": "sheremetevskaya_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "345",
+        "name": "Шипиловская",
+        "descriptor": "shipilovskaya",
+        "color": "#BED12C",
+        "id_city": "1"
+    },
+    {
+        "id": "346",
+        "name": "Шоссе энтузиастов",
+        "descriptor": "shosse_entuziastov",
+        "color": "#FFCD1C",
+        "id_city": "1"
+    },
+    {
+        "id": "347",
+        "name": "Шоссе энтузиастов МЦК",
+        "descriptor": "shosse_entuziastov_mck",
+        "color": "#F9BCD1",
+        "id_city": "1"
+    },
+    {
+        "id": "348",
+        "name": "Щелковская",
+        "descriptor": "schelkovskaya",
+        "color": "#0072BA",
+        "id_city": "1"
+    },
+    {
+        "id": "349",
+        "name": "Щербинка МЦД",
+        "descriptor": "scherbinka_mcd",
+        "color": "",
+        "id_city": "1"
+    },
+    {
+        "id": "350",
+        "name": "Щукинская",
+        "descriptor": "schukinskaya",
+        "color": "#943E90",
+        "id_city": "1"
+    },
+    {
+        "id": "351",
+        "name": "Электрозаводская",
+        "descriptor": "elektrozavodskaya",
+        "color": "#0072BA",
+        "id_city": "1"
+    },
+    {
+        "id": "352",
+        "name": "Юго-Восточная",
+        "descriptor": "yugo-vostochnaya",
+        "color": "#CC0066",
+        "id_city": "1"
+    },
+    {
+        "id": "353",
+        "name": "Юго-Западная",
+        "descriptor": "yugo-zapadnaya",
+        "color": "#E42313",
+        "id_city": "1"
+    },
+    {
+        "id": "354",
+        "name": "Южная",
+        "descriptor": "yuzhnaya",
+        "color": "#ADACAC",
+        "id_city": "1"
+    },
+    {
+        "id": "355",
+        "name": "Ясенево",
+        "descriptor": "yasenevo",
+        "color": "#F07E24",
+        "id_city": "1"
+    },
+    {
+        "id": "356",
+        "name": "Яхромская",
+        "descriptor": "yahromskaya",
+        "color": "#BED12C",
+        "id_city": "1"
+    }
+]

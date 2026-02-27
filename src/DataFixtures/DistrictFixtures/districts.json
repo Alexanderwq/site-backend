@@ -1,0 +1,1202 @@
+[
+    {
+        "id": 1,
+        "name": "Богородское",
+        "descriptor": "bogorodskoe",
+        "area_id": 1
+    },
+    {
+        "id": 2,
+        "name": "Вешняки",
+        "descriptor": "veshnyaki",
+        "area_id": 1
+    },
+    {
+        "id": 3,
+        "name": "Восточное Измайлово",
+        "descriptor": "vostochnoe_izmaylovo",
+        "area_id": 1
+    },
+    {
+        "id": 4,
+        "name": "Восточный",
+        "descriptor": "vostochnyy",
+        "area_id": 1
+    },
+    {
+        "id": 5,
+        "name": "Гольяново",
+        "descriptor": "golyanovo",
+        "area_id": 1
+    },
+    {
+        "id": 6,
+        "name": "Ивановское",
+        "descriptor": "ivanovskoe",
+        "area_id": 1
+    },
+    {
+        "id": 7,
+        "name": "Измайлово",
+        "descriptor": "izmaylovo",
+        "area_id": 1
+    },
+    {
+        "id": 8,
+        "name": "Косино-Ухтомский",
+        "descriptor": "kosino-uhtomskiy",
+        "area_id": 1
+    },
+    {
+        "id": 9,
+        "name": "Метрогородок",
+        "descriptor": "metrogorodok",
+        "area_id": 1
+    },
+    {
+        "id": 10,
+        "name": "Новогиреево",
+        "descriptor": "novogireevo",
+        "area_id": 1
+    },
+    {
+        "id": 11,
+        "name": "Новокосино",
+        "descriptor": "novokosino",
+        "area_id": 1
+    },
+    {
+        "id": 12,
+        "name": "Перово",
+        "descriptor": "perovo",
+        "area_id": 1
+    },
+    {
+        "id": 13,
+        "name": "Преображенское",
+        "descriptor": "preobrazhenskoe",
+        "area_id": 1
+    },
+    {
+        "id": 14,
+        "name": "Северное Измайлово",
+        "descriptor": "severnoe_izmaylovo",
+        "area_id": 1
+    },
+    {
+        "id": 15,
+        "name": "Соколиная Гора",
+        "descriptor": "sokolinaya_gora",
+        "area_id": 1
+    },
+    {
+        "id": 16,
+        "name": "Сокольники",
+        "descriptor": "sokolniki",
+        "area_id": 1
+    },
+    {
+        "id": 17,
+        "name": "Внуково",
+        "descriptor": "vnukovo",
+        "area_id": 2
+    },
+    {
+        "id": 18,
+        "name": "Дорогомилово",
+        "descriptor": "dorogomilovo",
+        "area_id": 2
+    },
+    {
+        "id": 19,
+        "name": "Крылатское",
+        "descriptor": "krylatskoe",
+        "area_id": 2
+    },
+    {
+        "id": 20,
+        "name": "Кунцево",
+        "descriptor": "kuncevo",
+        "area_id": 2
+    },
+    {
+        "id": 21,
+        "name": "Можайский",
+        "descriptor": "mozhayskiy",
+        "area_id": 2
+    },
+    {
+        "id": 22,
+        "name": "Ново-Переделкино",
+        "descriptor": "novo-peredelkino",
+        "area_id": 2
+    },
+    {
+        "id": 23,
+        "name": "Очаково-Матвеевское",
+        "descriptor": "ochakovo-matveevskoe",
+        "area_id": 2
+    },
+    {
+        "id": 24,
+        "name": "Проспект Вернадского",
+        "descriptor": "prospekt_vernadskogo",
+        "area_id": 2
+    },
+    {
+        "id": 25,
+        "name": "Раменки",
+        "descriptor": "ramenki",
+        "area_id": 2
+    },
+    {
+        "id": 26,
+        "name": "Солнцево",
+        "descriptor": "solncevo",
+        "area_id": 2
+    },
+    {
+        "id": 27,
+        "name": "Тропарево-Никулино",
+        "descriptor": "troparevo-nikulino",
+        "area_id": 2
+    },
+    {
+        "id": 28,
+        "name": "Филевский Парк",
+        "descriptor": "filevskiy_park",
+        "area_id": 2
+    },
+    {
+        "id": 29,
+        "name": "Фили-Давыдково",
+        "descriptor": "fili-davydkovo",
+        "area_id": 2
+    },
+    {
+        "id": 30,
+        "name": "Аэропорт",
+        "descriptor": "aeroport",
+        "area_id": 3
+    },
+    {
+        "id": 31,
+        "name": "Беговой",
+        "descriptor": "begovoy",
+        "area_id": 3
+    },
+    {
+        "id": 32,
+        "name": "Бескудниковский",
+        "descriptor": "beskudnikovskiy",
+        "area_id": 3
+    },
+    {
+        "id": 33,
+        "name": "Войковский",
+        "descriptor": "voykovskiy",
+        "area_id": 3
+    },
+    {
+        "id": 34,
+        "name": "Восточное Дегунино",
+        "descriptor": "vostochnoe_degunino",
+        "area_id": 3
+    },
+    {
+        "id": 35,
+        "name": "Головинский",
+        "descriptor": "golovinskiy",
+        "area_id": 3
+    },
+    {
+        "id": 36,
+        "name": "Дмитровский",
+        "descriptor": "dmitrovskiy",
+        "area_id": 3
+    },
+    {
+        "id": 37,
+        "name": "Западное Дегунино",
+        "descriptor": "zapadnoe_degunino",
+        "area_id": 3
+    },
+    {
+        "id": 38,
+        "name": "Коптево",
+        "descriptor": "koptevo",
+        "area_id": 3
+    },
+    {
+        "id": 39,
+        "name": "Левобережный",
+        "descriptor": "levoberezhnyy",
+        "area_id": 3
+    },
+    {
+        "id": 40,
+        "name": "Молжаниновский",
+        "descriptor": "molzhaninovskiy",
+        "area_id": 3
+    },
+    {
+        "id": 41,
+        "name": "Савеловский",
+        "descriptor": "savelovskiy",
+        "area_id": 3
+    },
+    {
+        "id": 42,
+        "name": "Сокол",
+        "descriptor": "sokol",
+        "area_id": 3
+    },
+    {
+        "id": 43,
+        "name": "Тимирязевский",
+        "descriptor": "timiryazevskiy",
+        "area_id": 3
+    },
+    {
+        "id": 44,
+        "name": "Ховрино",
+        "descriptor": "hovrino",
+        "area_id": 3
+    },
+    {
+        "id": 45,
+        "name": "Хорошевский",
+        "descriptor": "horoshevskiy",
+        "area_id": 3
+    },
+    {
+        "id": 46,
+        "name": "Алексеевский",
+        "descriptor": "alekseevskiy",
+        "area_id": 4
+    },
+    {
+        "id": 47,
+        "name": "Алтуфьевский",
+        "descriptor": "altufevskiy",
+        "area_id": 4
+    },
+    {
+        "id": 48,
+        "name": "Бабушкинский",
+        "descriptor": "babushkinskiy",
+        "area_id": 4
+    },
+    {
+        "id": 49,
+        "name": "Бибирево",
+        "descriptor": "bibirevo",
+        "area_id": 4
+    },
+    {
+        "id": 50,
+        "name": "Бутырский",
+        "descriptor": "butyrskiy",
+        "area_id": 4
+    },
+    {
+        "id": 51,
+        "name": "Лианозово",
+        "descriptor": "lianozovo",
+        "area_id": 4
+    },
+    {
+        "id": 52,
+        "name": "Лосиноостровский",
+        "descriptor": "losinoostrovskiy",
+        "area_id": 4
+    },
+    {
+        "id": 53,
+        "name": "Марфино",
+        "descriptor": "marfino",
+        "area_id": 4
+    },
+    {
+        "id": 54,
+        "name": "Марьина Роща",
+        "descriptor": "marina_roscha",
+        "area_id": 4
+    },
+    {
+        "id": 55,
+        "name": "Останкинский",
+        "descriptor": "ostankinskiy",
+        "area_id": 4
+    },
+    {
+        "id": 56,
+        "name": "Отрадное",
+        "descriptor": "otradnoe",
+        "area_id": 4
+    },
+    {
+        "id": 57,
+        "name": "Ростокино",
+        "descriptor": "rostokino",
+        "area_id": 4
+    },
+    {
+        "id": 58,
+        "name": "Свиблово",
+        "descriptor": "sviblovo",
+        "area_id": 4
+    },
+    {
+        "id": 59,
+        "name": "Северное Медведково",
+        "descriptor": "severnoe_medvedkovo",
+        "area_id": 4
+    },
+    {
+        "id": 60,
+        "name": "Северный",
+        "descriptor": "severnyy",
+        "area_id": 4
+    },
+    {
+        "id": 61,
+        "name": "Южное Медведково",
+        "descriptor": "yuzhnoe_medvedkovo",
+        "area_id": 4
+    },
+    {
+        "id": 62,
+        "name": "Ярославский",
+        "descriptor": "yaroslavskiy",
+        "area_id": 4
+    },
+    {
+        "id": 63,
+        "name": "Куркино",
+        "descriptor": "kurkino",
+        "area_id": 5
+    },
+    {
+        "id": 64,
+        "name": "Митино",
+        "descriptor": "mitino",
+        "area_id": 5
+    },
+    {
+        "id": 65,
+        "name": "Покровское-Стрешнево",
+        "descriptor": "pokrovskoe-streshnevo",
+        "area_id": 5
+    },
+    {
+        "id": 66,
+        "name": "Северное Тушино",
+        "descriptor": "severnoe_tushino",
+        "area_id": 5
+    },
+    {
+        "id": 67,
+        "name": "Строгино",
+        "descriptor": "strogino",
+        "area_id": 5
+    },
+    {
+        "id": 68,
+        "name": "Хорошево-Мневники",
+        "descriptor": "horoshevo-mnevniki",
+        "area_id": 5
+    },
+    {
+        "id": 69,
+        "name": "Щукино",
+        "descriptor": "schukino",
+        "area_id": 5
+    },
+    {
+        "id": 70,
+        "name": "Южное Тушино",
+        "descriptor": "yuzhnoe_tushino",
+        "area_id": 5
+    },
+    {
+        "id": 71,
+        "name": "Арбат",
+        "descriptor": "arbat",
+        "area_id": 6
+    },
+    {
+        "id": 72,
+        "name": "Басманный",
+        "descriptor": "basmannyy",
+        "area_id": 6
+    },
+    {
+        "id": 73,
+        "name": "Замоскворечье",
+        "descriptor": "zamoskvoreche",
+        "area_id": 6
+    },
+    {
+        "id": 74,
+        "name": "Красносельский",
+        "descriptor": "krasnoselskiy",
+        "area_id": 6
+    },
+    {
+        "id": 75,
+        "name": "Мещанский",
+        "descriptor": "meschanskiy",
+        "area_id": 6
+    },
+    {
+        "id": 76,
+        "name": "Пресненский",
+        "descriptor": "presnenskiy",
+        "area_id": 6
+    },
+    {
+        "id": 77,
+        "name": "Таганский",
+        "descriptor": "taganskiy",
+        "area_id": 6
+    },
+    {
+        "id": 78,
+        "name": "Тверской",
+        "descriptor": "tverskoy",
+        "area_id": 6
+    },
+    {
+        "id": 79,
+        "name": "Хамовники",
+        "descriptor": "hamovniki",
+        "area_id": 6
+    },
+    {
+        "id": 80,
+        "name": "Якиманка",
+        "descriptor": "yakimanka",
+        "area_id": 6
+    },
+    {
+        "id": 81,
+        "name": "Бирюлево Восточное",
+        "descriptor": "biryulevo_vostochnoe",
+        "area_id": 7
+    },
+    {
+        "id": 82,
+        "name": "Бирюлево Западное",
+        "descriptor": "biryulevo_zapadnoe",
+        "area_id": 7
+    },
+    {
+        "id": 83,
+        "name": "Братеево",
+        "descriptor": "brateevo",
+        "area_id": 7
+    },
+    {
+        "id": 84,
+        "name": "Даниловский",
+        "descriptor": "danilovskiy",
+        "area_id": 7
+    },
+    {
+        "id": 85,
+        "name": "Донской",
+        "descriptor": "donskoy",
+        "area_id": 7
+    },
+    {
+        "id": 86,
+        "name": "Зябликово",
+        "descriptor": "zyablikovo",
+        "area_id": 7
+    },
+    {
+        "id": 87,
+        "name": "Москворечье-Сабурово",
+        "descriptor": "moskvoreche-saburovo",
+        "area_id": 7
+    },
+    {
+        "id": 88,
+        "name": "Нагатино-Садовники",
+        "descriptor": "nagatino-sadovniki",
+        "area_id": 7
+    },
+    {
+        "id": 89,
+        "name": "Нагатинский Затон",
+        "descriptor": "nagatinskiy_zaton",
+        "area_id": 7
+    },
+    {
+        "id": 90,
+        "name": "Нагорный",
+        "descriptor": "nagornyy",
+        "area_id": 7
+    },
+    {
+        "id": 91,
+        "name": "Орехово-Борисово Северное",
+        "descriptor": "orehovo-borisovo_severnoe",
+        "area_id": 7
+    },
+    {
+        "id": 92,
+        "name": "Орехово-Борисово Южное",
+        "descriptor": "orehovo-borisovo_yuzhnoe",
+        "area_id": 7
+    },
+    {
+        "id": 93,
+        "name": "Царицыно",
+        "descriptor": "caricyno",
+        "area_id": 7
+    },
+    {
+        "id": 94,
+        "name": "Чертаново Северное",
+        "descriptor": "chertanovo_severnoe",
+        "area_id": 7
+    },
+    {
+        "id": 95,
+        "name": "Чертаново Центральное",
+        "descriptor": "chertanovo_centralnoe",
+        "area_id": 7
+    },
+    {
+        "id": 96,
+        "name": "Чертаново Южное",
+        "descriptor": "chertanovo_yuzhnoe",
+        "area_id": 7
+    },
+    {
+        "id": 97,
+        "name": "Выхино-Жулебино",
+        "descriptor": "vyhino-zhulebino",
+        "area_id": 8
+    },
+    {
+        "id": 98,
+        "name": "Капотня",
+        "descriptor": "kapotnya",
+        "area_id": 8
+    },
+    {
+        "id": 99,
+        "name": "Кузьминки",
+        "descriptor": "kuzminki",
+        "area_id": 8
+    },
+    {
+        "id": 100,
+        "name": "Лефортово",
+        "descriptor": "lefortovo",
+        "area_id": 8
+    },
+    {
+        "id": 101,
+        "name": "Люблино",
+        "descriptor": "lyublino",
+        "area_id": 8
+    },
+    {
+        "id": 102,
+        "name": "Марьино",
+        "descriptor": "marino",
+        "area_id": 8
+    },
+    {
+        "id": 103,
+        "name": "Некрасовка",
+        "descriptor": "nekrasovka",
+        "area_id": 8
+    },
+    {
+        "id": 104,
+        "name": "Нижегородский",
+        "descriptor": "nizhegorodskiy",
+        "area_id": 8
+    },
+    {
+        "id": 105,
+        "name": "Печатники",
+        "descriptor": "pechatniki",
+        "area_id": 8
+    },
+    {
+        "id": 106,
+        "name": "Рязанский",
+        "descriptor": "ryazanskiy",
+        "area_id": 8
+    },
+    {
+        "id": 107,
+        "name": "Текстильщики",
+        "descriptor": "tekstilschiki",
+        "area_id": 8
+    },
+    {
+        "id": 108,
+        "name": "Южнопортовый",
+        "descriptor": "yuzhnoportovyy",
+        "area_id": 8
+    },
+    {
+        "id": 109,
+        "name": "Академический",
+        "descriptor": "akademicheskiy",
+        "area_id": 9
+    },
+    {
+        "id": 110,
+        "name": "Гагаринский",
+        "descriptor": "gagarinskiy",
+        "area_id": 9
+    },
+    {
+        "id": 111,
+        "name": "Зюзино",
+        "descriptor": "zyuzino",
+        "area_id": 9
+    },
+    {
+        "id": 112,
+        "name": "Коньково",
+        "descriptor": "konkovo",
+        "area_id": 9
+    },
+    {
+        "id": 113,
+        "name": "Котловка",
+        "descriptor": "kotlovka",
+        "area_id": 9
+    },
+    {
+        "id": 114,
+        "name": "Ломоносовский",
+        "descriptor": "lomonosovskiy",
+        "area_id": 9
+    },
+    {
+        "id": 115,
+        "name": "Обручевский",
+        "descriptor": "obruchevskiy",
+        "area_id": 9
+    },
+    {
+        "id": 116,
+        "name": "Северное Бутово",
+        "descriptor": "severnoe_butovo",
+        "area_id": 9
+    },
+    {
+        "id": 117,
+        "name": "Теплый Стан",
+        "descriptor": "teplyy_stan",
+        "area_id": 9
+    },
+    {
+        "id": 118,
+        "name": "Черемушки",
+        "descriptor": "cheremushki",
+        "area_id": 9
+    },
+    {
+        "id": 119,
+        "name": "Южное Бутово",
+        "descriptor": "yuzhnoe_butovo",
+        "area_id": 9
+    },
+    {
+        "id": 120,
+        "name": "Ясенево",
+        "descriptor": "yasenevo",
+        "area_id": 9
+    },
+    {
+        "id": 126,
+        "name": "Апрелевка",
+        "descriptor": "aprelevka",
+        "area_id": 13
+    },
+    {
+        "id": 127,
+        "name": "Балашиха",
+        "descriptor": "balashiha",
+        "area_id": 13
+    },
+    {
+        "id": 128,
+        "name": "Бронницы",
+        "descriptor": "bronnicy",
+        "area_id": 13
+    },
+    {
+        "id": 129,
+        "name": "Верея",
+        "descriptor": "vereya",
+        "area_id": 13
+    },
+    {
+        "id": 130,
+        "name": "Видное",
+        "descriptor": "vidnoe",
+        "area_id": 13
+    },
+    {
+        "id": 131,
+        "name": "Волоколамск",
+        "descriptor": "volokolamsk",
+        "area_id": 13
+    },
+    {
+        "id": 132,
+        "name": "Воскресенск",
+        "descriptor": "voskresensk",
+        "area_id": 13
+    },
+    {
+        "id": 133,
+        "name": "Высоковск",
+        "descriptor": "vysokovsk",
+        "area_id": 13
+    },
+    {
+        "id": 134,
+        "name": "Голицыно",
+        "descriptor": "golicyno",
+        "area_id": 13
+    },
+    {
+        "id": 135,
+        "name": "Дедовск",
+        "descriptor": "dedovsk",
+        "area_id": 13
+    },
+    {
+        "id": 136,
+        "name": "Дзержинский",
+        "descriptor": "dzerzhinskiy",
+        "area_id": 13
+    },
+    {
+        "id": 137,
+        "name": "Дмитров",
+        "descriptor": "dmitrov",
+        "area_id": 13
+    },
+    {
+        "id": 138,
+        "name": "Долгопрудный",
+        "descriptor": "dolgoprudnyy",
+        "area_id": 13
+    },
+    {
+        "id": 139,
+        "name": "Домодедово",
+        "descriptor": "domodedovo",
+        "area_id": 13
+    },
+    {
+        "id": 140,
+        "name": "Дрезна",
+        "descriptor": "drezna",
+        "area_id": 13
+    },
+    {
+        "id": 141,
+        "name": "Дубна",
+        "descriptor": "dubna",
+        "area_id": 13
+    },
+    {
+        "id": 142,
+        "name": "Егорьевск",
+        "descriptor": "egorevsk",
+        "area_id": 13
+    },
+    {
+        "id": 143,
+        "name": "Железнодорожный",
+        "descriptor": "zheleznodorozhnyy",
+        "area_id": 13
+    },
+    {
+        "id": 144,
+        "name": "Жуковский",
+        "descriptor": "zhukovskiy",
+        "area_id": 13
+    },
+    {
+        "id": 145,
+        "name": "Зарайск",
+        "descriptor": "zaraysk",
+        "area_id": 13
+    },
+    {
+        "id": 146,
+        "name": "Звенигород",
+        "descriptor": "zvenigorod",
+        "area_id": 13
+    },
+    {
+        "id": 147,
+        "name": "Ивантеевка",
+        "descriptor": "ivanteevka",
+        "area_id": 13
+    },
+    {
+        "id": 148,
+        "name": "Истра",
+        "descriptor": "istra",
+        "area_id": 13
+    },
+    {
+        "id": 149,
+        "name": "Кашира",
+        "descriptor": "kashira",
+        "area_id": 13
+    },
+    {
+        "id": 150,
+        "name": "Климовск",
+        "descriptor": "klimovsk",
+        "area_id": 13
+    },
+    {
+        "id": 151,
+        "name": "Клин",
+        "descriptor": "klin",
+        "area_id": 13
+    },
+    {
+        "id": 152,
+        "name": "Коломна",
+        "descriptor": "kolomna",
+        "area_id": 13
+    },
+    {
+        "id": 153,
+        "name": "Королёв",
+        "descriptor": "korolev",
+        "area_id": 13
+    },
+    {
+        "id": 154,
+        "name": "Котельники",
+        "descriptor": "kotelniki",
+        "area_id": 13
+    },
+    {
+        "id": 155,
+        "name": "Красноармейск",
+        "descriptor": "krasnoarmeysk",
+        "area_id": 13
+    },
+    {
+        "id": 156,
+        "name": "Красногорск",
+        "descriptor": "krasnogorsk",
+        "area_id": 13
+    },
+    {
+        "id": 157,
+        "name": "Краснозаводск",
+        "descriptor": "krasnozavodsk",
+        "area_id": 13
+    },
+    {
+        "id": 158,
+        "name": "Краснознаменск",
+        "descriptor": "krasnoznamensk",
+        "area_id": 13
+    },
+    {
+        "id": 159,
+        "name": "Кубинка",
+        "descriptor": "kubinka",
+        "area_id": 13
+    },
+    {
+        "id": 160,
+        "name": "Куровское",
+        "descriptor": "kurovskoe",
+        "area_id": 13
+    },
+    {
+        "id": 161,
+        "name": "Ликино-Дулёво",
+        "descriptor": "likino-dulevo",
+        "area_id": 13
+    },
+    {
+        "id": 162,
+        "name": "Лобня",
+        "descriptor": "lobnya",
+        "area_id": 13
+    },
+    {
+        "id": 163,
+        "name": "Луховицы",
+        "descriptor": "luhovicy",
+        "area_id": 13
+    },
+    {
+        "id": 164,
+        "name": "Лыткарино",
+        "descriptor": "lytkarino",
+        "area_id": 13
+    },
+    {
+        "id": 165,
+        "name": "Люберцы",
+        "descriptor": "lyubercy",
+        "area_id": 13
+    },
+    {
+        "id": 166,
+        "name": "Можайск",
+        "descriptor": "mozhaysk",
+        "area_id": 13
+    },
+    {
+        "id": 167,
+        "name": "Московский",
+        "descriptor": "moskovskiy",
+        "area_id": 13
+    },
+    {
+        "id": 168,
+        "name": "Мытищи",
+        "descriptor": "mytischi",
+        "area_id": 13
+    },
+    {
+        "id": 169,
+        "name": "Наро-Фоминск",
+        "descriptor": "naro-fominsk",
+        "area_id": 13
+    },
+    {
+        "id": 170,
+        "name": "Ногинск",
+        "descriptor": "noginsk",
+        "area_id": 13
+    },
+    {
+        "id": 171,
+        "name": "Одинцово",
+        "descriptor": "odincovo",
+        "area_id": 13
+    },
+    {
+        "id": 172,
+        "name": "Ожерелье",
+        "descriptor": "ozherele",
+        "area_id": 13
+    },
+    {
+        "id": 173,
+        "name": "Озёры",
+        "descriptor": "ozery",
+        "area_id": 13
+    },
+    {
+        "id": 174,
+        "name": "Орехово-Зуево",
+        "descriptor": "orehovo-zuevo",
+        "area_id": 13
+    },
+    {
+        "id": 175,
+        "name": "Павловский Посад",
+        "descriptor": "pavlovskiy_posad",
+        "area_id": 13
+    },
+    {
+        "id": 176,
+        "name": "Пересвет",
+        "descriptor": "peresvet",
+        "area_id": 13
+    },
+    {
+        "id": 177,
+        "name": "Подольск",
+        "descriptor": "podolsk",
+        "area_id": 13
+    },
+    {
+        "id": 178,
+        "name": "Протвино",
+        "descriptor": "protvino",
+        "area_id": 13
+    },
+    {
+        "id": 179,
+        "name": "Пушкино",
+        "descriptor": "pushkino",
+        "area_id": 13
+    },
+    {
+        "id": 180,
+        "name": "Путилково",
+        "descriptor": "putilkovo",
+        "area_id": 13
+    },
+    {
+        "id": 181,
+        "name": "Пущино",
+        "descriptor": "puschino",
+        "area_id": 13
+    },
+    {
+        "id": 182,
+        "name": "Раменское",
+        "descriptor": "ramenskoe",
+        "area_id": 13
+    },
+    {
+        "id": 183,
+        "name": "Реутов",
+        "descriptor": "reutov",
+        "area_id": 13
+    },
+    {
+        "id": 184,
+        "name": "Рошаль",
+        "descriptor": "roshal",
+        "area_id": 13
+    },
+    {
+        "id": 185,
+        "name": "Руза",
+        "descriptor": "ruza",
+        "area_id": 13
+    },
+    {
+        "id": 186,
+        "name": "Сергиев Посад",
+        "descriptor": "sergiev_posad",
+        "area_id": 13
+    },
+    {
+        "id": 187,
+        "name": "Серпухов",
+        "descriptor": "serpuhov",
+        "area_id": 13
+    },
+    {
+        "id": 188,
+        "name": "Солнечногорск",
+        "descriptor": "solnechnogorsk",
+        "area_id": 13
+    },
+    {
+        "id": 189,
+        "name": "Старая Купавна",
+        "descriptor": "staraya_kupavna",
+        "area_id": 13
+    },
+    {
+        "id": 190,
+        "name": "Ступино",
+        "descriptor": "stupino",
+        "area_id": 13
+    },
+    {
+        "id": 191,
+        "name": "Талдом",
+        "descriptor": "taldom",
+        "area_id": 13
+    },
+    {
+        "id": 192,
+        "name": "Троицк",
+        "descriptor": "troick",
+        "area_id": 13
+    },
+    {
+        "id": 193,
+        "name": "Фрязино",
+        "descriptor": "fryazino",
+        "area_id": 13
+    },
+    {
+        "id": 194,
+        "name": "Химки",
+        "descriptor": "himki",
+        "area_id": 13
+    },
+    {
+        "id": 195,
+        "name": "Хотьково",
+        "descriptor": "hotkovo",
+        "area_id": 13
+    },
+    {
+        "id": 196,
+        "name": "Черноголовка",
+        "descriptor": "chernogolovka",
+        "area_id": 13
+    },
+    {
+        "id": 197,
+        "name": "Чехов",
+        "descriptor": "chehov",
+        "area_id": 13
+    },
+    {
+        "id": 198,
+        "name": "Шатура",
+        "descriptor": "shatura",
+        "area_id": 13
+    },
+    {
+        "id": 199,
+        "name": "Щербинка",
+        "descriptor": "scherbinka",
+        "area_id": 13
+    },
+    {
+        "id": 200,
+        "name": "Щёлково",
+        "descriptor": "schelkovo",
+        "area_id": 13
+    },
+    {
+        "id": 201,
+        "name": "Электрогорск",
+        "descriptor": "elektrogorsk",
+        "area_id": 13
+    },
+    {
+        "id": 202,
+        "name": "Электросталь",
+        "descriptor": "elektrostal",
+        "area_id": 13
+    },
+    {
+        "id": 203,
+        "name": "Электроугли",
+        "descriptor": "elektrougli",
+        "area_id": 13
+    },
+    {
+        "id": 204,
+        "name": "Юбилейный",
+        "descriptor": "yubileynyy",
+        "area_id": 13
+    },
+    {
+        "id": 205,
+        "name": "Яхрома",
+        "descriptor": "yahroma",
+        "area_id": 13
+    }
+]

@@ -1,0 +1,35 @@
+<?php
+
+namespace App\Model\User\UseCase\Edit;
+
+use App\Model\User\Entity\User\User;
+use Symfony\Component\Validator\Constraints as Assert;
+
+class Command
+{
+    #[Assert\NotBlank]
+    public string $id;
+
+    #[
+        Assert\NotBlank,
+        Assert\Email,
+    ]
+    public string $email;
+
+    #[Assert\NotBlank]
+    public string $name;
+
+    public function __construct(string $id)
+    {
+        $this->id = $id;
+    }
+
+    public static function fromUser(User $user): self
+    {
+        $command = new self($user->getId()->getValue());
+        $command->email = $user->getEmail()?->getValue();
+        $command->name = $user->getName()->getValue();
+
+        return $command;
+    }
+}

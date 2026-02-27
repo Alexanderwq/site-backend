@@ -1,0 +1,33 @@
+parameters:
+
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    App\:
+        resource: '../src/'
+
+    App\Twig\Extension\AssetFilter:
+        arguments:
+            $manifestPath: '%kernel.project_dir%/public/assets/dist/rev-manifest.json'
+            $manifestPathVue: '%kernel.project_dir%/public/assets/vue/dist/manifest.json'
+        tags: [ 'twig.extension' ]
+
+    App\Twig\Extension\EnvExtension:
+        tags: [ 'twig.extension' ]
+
+    App\Model\User\Service\SignUpConfirmTokenSender:
+        $from:
+            email: '%env(MAILER_FROM_EMAIL)%'
+            name: '%env(MAILER_FROM_NAME)%'
+
+    App\Model\User\Service\ResetTokenSender:
+        $from:
+            email: '%env(MAILER_FROM_EMAIL)%'
+            name: '%env(MAILER_FROM_NAME)%'
+
+    App\Model\User\Service\NewEmailConfirmTokenSender:
+        $from:
+            email: '%env(MAILER_FROM_EMAIL)%'
+            name: '%env(MAILER_FROM_NAME)%'
