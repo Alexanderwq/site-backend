@@ -24,6 +24,20 @@ class FavoriteGroupRepository
         return $favoriteGroup;
     }
 
+    public function getByUser(Id $id, UserId $userId): FavoriteGroup
+    {
+        if (!$favoriteGroup = $this->repository->findOneBy(['id' => $id, 'userId' => $userId])) {
+            throw new Exception('Group not found');
+        }
+
+        return $favoriteGroup;
+    }
+
+    public function findByUserAndName(UserId $userId, string $name): ?FavoriteGroup
+    {
+        return $this->repository->findOneBy(['userId' => $userId, 'name' => $name]);
+    }
+
     public function add(FavoriteGroup $favoriteGroup): void
     {
         $this->manager->persist($favoriteGroup);
