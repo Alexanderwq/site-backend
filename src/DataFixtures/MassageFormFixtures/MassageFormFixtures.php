@@ -23,8 +23,8 @@ class MassageFormFixtures extends Fixture implements DependentFixtureInterface
 {
     public function load(ObjectManager $manager): void
     {
-        $metroStations = $manager->getRepository(MetroStation::class)->findAll();
-        $districts = $manager->getRepository(District::class)->findAll();
+        $metroStations = $manager->getRepository(MetroStation::class)->findBy([], null, 10);
+        $districts = $manager->getRepository(District::class)->findBy([], null, 10);
 
         for ($i = 1; $i <= 10; $i++) {
             $massageForm = new MassageForm(
