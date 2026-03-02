@@ -26,7 +26,7 @@ class MassageFormFixtures extends Fixture implements DependentFixtureInterface
         $metroStations = $manager->getRepository(MetroStation::class)->findBy([], null, 10);
         $districts = $manager->getRepository(District::class)->findBy([], null, 10);
 
-        for ($i = 1; $i <= 10; $i++) {
+        for ($i = 1; $i <= 50; $i++) {
             $massageForm = new MassageForm(
                 MassageFormId::next(),
                 new UserId(UserId::next()),
@@ -34,7 +34,7 @@ class MassageFormFixtures extends Fixture implements DependentFixtureInterface
                 new Name('Массажистка ' . $i),
                 new Description('Описание массажиста ' . $i),
                 new DateTimeImmutable('1990-01-0' . ($i % 9 + 1)),
-                new Experience($i),
+                new Experience(random_int(1, 5)),
                 $metroStations,
                 $districts
             );
