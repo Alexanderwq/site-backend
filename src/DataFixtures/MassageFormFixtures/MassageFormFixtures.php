@@ -36,6 +36,7 @@ class MassageFormFixtures extends Fixture implements DependentFixtureInterface
                 new Description('Описание массажиста ' . $i),
                 new DateTimeImmutable('1990-01-0' . ($i % 9 + 1)),
                 new Experience(random_int(1, 5)),
+                new DateTimeImmutable()->modify("-$i day"),
                 $metroStations,
                 $districts
             );

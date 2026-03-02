@@ -81,6 +81,9 @@ class MassageForm implements AggregateRoot
     )]
     private Collection $additionalOptions;
 
+    #[ORM\Column(type: Types::DATETIME_IMMUTABLE)]
+    private DateTimeImmutable $createdAt;
+
     public function __construct(
         Id $id,
         UserId $userId,
@@ -89,6 +92,7 @@ class MassageForm implements AggregateRoot
         Description $description,
         DateTimeImmutable $dateOfBirth,
         Experience $experience,
+        DateTimeImmutable $createdAt,
         array $metroStations = [],
         array $districts = [],
     ) {
@@ -105,6 +109,7 @@ class MassageForm implements AggregateRoot
         $this->additionalOptions = new ArrayCollection();
         $this->photos = new ArrayCollection();
         $this->disabled = false;
+        $this->createdAt = $createdAt;
     }
 
     public function getId(): Id
@@ -140,6 +145,11 @@ class MassageForm implements AggregateRoot
     public function getDateOfBirth(): DateTimeImmutable
     {
         return $this->dateOfBirth;
+    }
+
+    public function createdAt(): DateTimeImmutable
+    {
+        return $this->createdAt;
     }
 
     public function getPrices(): array
