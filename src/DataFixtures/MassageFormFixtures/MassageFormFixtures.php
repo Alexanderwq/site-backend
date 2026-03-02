@@ -14,6 +14,7 @@ use App\Model\Account\Entity\MassageForm\Description;
 use App\Model\Account\Entity\MassageForm\Experience;
 use App\Model\Account\Entity\MassageForm\UserId;
 use App\Model\Account\UseCase\MassageForm\EditAdditionalInfo\PriceDto;
+use App\Model\Account\UseCase\MassageForm\Photos\Add\PhotoDto;
 use Doctrine\Bundle\FixturesBundle\Fixture;
 use Doctrine\Common\DataFixtures\DependentFixtureInterface;
 use Doctrine\Persistence\ObjectManager;
@@ -43,6 +44,15 @@ class MassageFormFixtures extends Fixture implements DependentFixtureInterface
                 new PriceDto('home', 1, 2000, 'day'),
                 new PriceDto('visitor', 2, 3000, 'night'),
             ]);
+
+            $photos = [
+                new PhotoDto("photo_main_$i.jpg", true, false),
+                new PhotoDto("photo_preview_$i.jpg", false, true),
+                new PhotoDto("photo1_$i.jpg", false, false),
+                new PhotoDto("photo2_$i.jpg", false, false),
+                new PhotoDto("photo3_$i.jpg", false, false),
+            ];
+            $massageForm->changePhotos($photos);
 
             $manager->persist($massageForm);
         }
