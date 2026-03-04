@@ -9,6 +9,7 @@ use App\Model\Account\Entity\MassageForm\MassageForm;
 use App\Model\Account\Entity\MassageForm\Name;
 use App\Model\Account\Entity\MassageForm\Phone;
 use App\Model\Account\Entity\MassageForm\UserId;
+use App\Tests\Builder\Account\MassageForm\MassageFormBuilder;
 use DateTimeImmutable;
 use PHPUnit\Framework\TestCase;
 use App\Model\Account\Entity\AdditionalOption\AdditionalOption as AdditionalOptionRoot;
@@ -17,7 +18,7 @@ final class ChangeAdditionalOptionsTest extends TestCase
 {
     public function testAddAdditionalOptions(): void
     {
-        $form = $this->createForm();
+        $form = new MassageFormBuilder()->build();
 
         $option = $this->createOption();
 
@@ -38,7 +39,7 @@ final class ChangeAdditionalOptionsTest extends TestCase
 
     public function testReplaceExistingOptions(): void
     {
-        $form = $this->createForm();
+        $form = new MassageFormBuilder()->build();
 
         $option = $this->createOption();
 
@@ -67,7 +68,7 @@ final class ChangeAdditionalOptionsTest extends TestCase
 
     public function testMultipleOptions(): void
     {
-        $form = $this->createForm();
+        $form = new MassageFormBuilder()->build();
 
         $option1 = $this->createOption();
         $option2 = $this->createOption();
@@ -82,24 +83,11 @@ final class ChangeAdditionalOptionsTest extends TestCase
 
     public function testEmptyOptions(): void
     {
-        $form = $this->createForm();
+        $form = new MassageFormBuilder()->build();
 
         $form->changeAdditionalOptions([]);
 
         self::assertCount(0, $form->getAdditionalOptions());
-    }
-
-    private function createForm(): MassageForm
-    {
-        return new MassageForm(
-            Id::next(),
-            new UserId('user-id'),
-            new Phone('79109688090'),
-            new Name('Аня'),
-            new Description('description'),
-            new DateTimeImmutable('2000-01-01'),
-            new Experience(5),
-        );
     }
 
     private function createOption(): AdditionalOptionRoot

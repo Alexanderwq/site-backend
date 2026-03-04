@@ -127,6 +127,16 @@ class MassageForm implements AggregateRoot
         return $this->name;
     }
 
+    public function isActive(): bool
+    {
+        return !$this->disabled;
+    }
+
+    public function isDeactivated(): bool
+    {
+        return $this->disabled;
+    }
+
     public function getDescription(): Description
     {
         return $this->description;
@@ -190,6 +200,24 @@ class MassageForm implements AggregateRoot
     public function changeExperience(Experience $experience): void
     {
         $this->experience = $experience;
+    }
+
+    public function activate(): void
+    {
+        if ($this->disabled === false) {
+            throw new DomainException('Massage form is already activated');
+        }
+
+        $this->disabled = false;
+    }
+
+    public function deactivate(): void
+    {
+        if ($this->disabled === true) {
+            throw new DomainException('Massage form is already deactivated');
+        }
+
+        $this->disabled = true;
     }
 
     public function addMetroStation(MetroStation $metroStation): void

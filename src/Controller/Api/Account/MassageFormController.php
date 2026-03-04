@@ -4,11 +4,12 @@ namespace App\Controller\Api\Account;
 
 use App\Mapper\PriceMapper;
 use App\Model\Account\Entity\MassageForm\Id;
-use App\Model\Account\UseCase\MassageForm\Create\Command;
-use App\Model\Account\UseCase\MassageForm\Create\Handler;
+use App\Model\Account\Entity\MassageForm\MassageForm;
+use App\Model\Account\UseCase;
 use App\Model\Account\UseCase\MassageForm\EditAdditionalInfo\OptionDto;
 use App\Model\Account\UseCase\MassageForm\Photos\Add\PhotoDto;
 use App\ReadModel\Account\MassageForm\MassageFormFetcher;
+use App\Security\Voter\MassageFormVoter;
 use App\Service\UploaderPhoto\UploadPhotosService;
 use DomainException;
 use Exception;
@@ -31,11 +32,11 @@ class MassageFormController extends AbstractController
     ) {
     }
 
-    #[Route(path: '/api/lk/profile/{id}', name: 'massage_form.edit_info', methods: ['PUT'])]
-    public function editInfo(string $id, Request $request, \App\Model\Account\UseCase\MassageForm\EditMainInfo\Handler $handler): JsonResponse
+    #[Route(path: '/api/lk/massage_form/{id}', name: 'massage_form.edit_info', methods: ['PUT'])]
+    public function editInfo(string $id, Request $request, UseCase\MassageForm\EditMainInfo\Handler $handler): JsonResponse
     {
-        /** @var \App\Model\Account\UseCase\MassageForm\EditMainInfo\Command $command */
-        $command = $this->serializer->deserialize($request->getContent(), \App\Model\Account\UseCase\MassageForm\EditMainInfo\Command::class, 'json');
+        /** @var UseCase\MassageForm\EditMainInfo\Command $command */
+        $command = $this->serializer->deserialize($request->getContent(), UseCase\MassageForm\EditMainInfo\Command::class, 'json');
 
         $command->id = $id;
 
@@ -56,7 +57,7 @@ class MassageFormController extends AbstractController
         return $this->json(['success' => true]);
     }
 
-    #[Route(path: '/api/lk/profiles_list', name: 'massage_form.profiles_list')]
+    #[Route(path: '/api/lk/massage_form_list', name: 'massage_form.massage_form_list')]
     public function profilesList(MassageFormFetcher $massageFormFetcher): JsonResponse
     {
         $userId = $this->getUser()->getId();
@@ -76,11 +77,11 @@ class MassageFormController extends AbstractController
     /**
      * @throws ExceptionInterface
      */
-    #[Route(path: '/api/lk/profile', name: 'massage_form.create', methods: ['POST'])]
-    public function create(Request $request, Handler $handler): JsonResponse
+    #[Route(path: '/api/lk/massage_form', name: 'massage_form.create', methods: ['POST'])]
+    public function create(Request $request, UseCase\MassageForm\Create\Handler $handler): JsonResponse
     {
-        /** @var Command $command */
-        $command = $this->serializer->deserialize($request->getContent(), Command::class, 'json');
+        /** @var UseCase\MassageForm\Create\Command $command */
+        $command = $this->serializer->deserialize($request->getContent(), UseCase\MassageForm\Create\Command::class, 'json');
 
         $command->id = Id::next(); // TODO: в дальнейшем сделать через событие получение id
         $command->userId = $this->getUser()->getId();
@@ -105,12 +106,12 @@ class MassageFormController extends AbstractController
     /**
      * @throws Exception
      */
-    #[Route(path: '/api/lk/profile/{profileId}/price', name: 'massage_form.edit_additional_info', methods: ['POST'])]
-    public function editAdditionalInfo(string $profileId, Request $request, PriceMapper $priceMapper, \App\Model\Account\UseCase\MassageForm\EditAdditionalInfo\Handler $handler): JsonResponse
+    #[Route(path: '/api/lk/massageForm/{profileId}/price', name: 'massage_form.edit_additional_info', methods: ['POST'])]
+    public function editAdditionalInfo(string $profileId, Request $request, PriceMapper $priceMapper, UseCase\MassageForm\EditAdditionalInfo\Handler $handler): JsonResponse
     {
         $data = json_decode($request->getContent(), true, 512, JSON_THROW_ON_ERROR);
 
-        $command = new \App\Model\Account\UseCase\MassageForm\EditAdditionalInfo\Command();
+        $command = new UseCase\MassageForm\EditAdditionalInfo\Command();
         $command->prices = $priceMapper->map($data['price']);
         $command->massageForm = $profileId;
         $command->options = array_map(function ($option) {
@@ -139,8 +140,8 @@ class MassageFormController extends AbstractController
         return $this->json(['status' => true]);
     }
 
-    #[Route(path: '/api/lk/profile/{profileId}/photos', name: 'massage_form.add_photo', methods: ['POST'])]
-    public function addPhoto(string $profileId, Request $request, \App\Model\Account\UseCase\MassageForm\Photos\Add\Handler $handler): JsonResponse
+    #[Route(path: '/api/lk/massage_form/{profileId}/photos', name: 'massage_form.add_photo', methods: ['POST'])]
+    public function addPhoto(string $profileId, Request $request, UseCase\MassageForm\Photos\Add\Handler $handler): JsonResponse
     {
         $uploadPhotoService = new UploadPhotosService();
 
@@ -168,7 +169,7 @@ class MassageFormController extends AbstractController
             $resultPhotos[] = $photo;
         }
 
-        $command = new \App\Model\Account\UseCase\MassageForm\Photos\Add\Command();
+        $command = new UseCase\MassageForm\Photos\Add\Command();
         $command->massageForm = $profileId;
         $command->photos = $resultPhotos;
         $command->removePhotos = $removePhotos;
@@ -190,11 +191,13 @@ class MassageFormController extends AbstractController
         return $this->json(['status' => true]);
     }
 
-    #[Route(path: '/remove/{profileId}', name: 'massage_form.remove_photo', methods: ['POST'])]
-    public function removePhoto(string $profileId, Request $request, \App\Model\Account\UseCase\MassageForm\Photos\Remove\Handler $handler): JsonResponse
+    #[Route('/api/lk/massage_forms/{id}/activate', name: 'massage_form.activate', methods: ['GET'])]
+    public function activate(MassageForm $massageForm, UseCase\MassageForm\Activate\Handler $handler): JsonResponse
     {
-        $command = $this->serializer->deserialize($request->getContent(), \App\Model\Account\UseCase\MassageForm\Photos\Remove\Command::class, 'json');
-        $command->massageForm = $profileId;
+        $this->denyAccessUnlessGranted(MassageFormVoter::ACTIVATE, $massageForm);
+
+        $command = new UseCase\MassageForm\Activate\Command();
+        $command->massageForm = $massageForm->getId()->getValue();
 
         $errors = $this->validator->validate($command);
 
@@ -205,11 +208,36 @@ class MassageFormController extends AbstractController
 
         try {
             $handler->handle($command);
-        }  catch (DomainException $exception) {
+        } catch (DomainException $exception) {
             $this->logger->error($exception->getMessage(), ['exception' => $exception]);
             return $this->json(['message' => $exception->getMessage()], 400);
         }
 
-        return $this->json(['status' => true]);
+        return $this->json(['success' => true]);
+    }
+
+    #[Route('/api/lk/massage_forms/{id}/deactivate', name: 'massage_form.deactivate', methods: ['GET'])]
+    public function deactivate(MassageForm $massageForm, UseCase\MassageForm\Deactivate\Handler $handler): JsonResponse
+    {
+        $this->denyAccessUnlessGranted(MassageFormVoter::ACTIVATE, $massageForm);
+
+        $command = new UseCase\MassageForm\Deactivate\Command();
+        $command->massageForm = $massageForm->getId()->getValue();
+
+        $errors = $this->validator->validate($command);
+
+        if (count($errors)) {
+            $json = $this->serializer->serialize($errors, 'json');
+            return new JsonResponse($json, 400, [], true);
+        }
+
+        try {
+            $handler->handle($command);
+        } catch (DomainException $exception) {
+            $this->logger->error($exception->getMessage(), ['exception' => $exception]);
+            return $this->json(['message' => $exception->getMessage()], 400);
+        }
+
+        return $this->json(['success' => true]);
     }
 }

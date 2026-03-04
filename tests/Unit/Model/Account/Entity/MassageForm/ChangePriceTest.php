@@ -10,6 +10,7 @@ use App\Model\Account\Entity\MassageForm\Name;
 use App\Model\Account\Entity\MassageForm\Phone;
 use App\Model\Account\Entity\MassageForm\UserId;
 use App\Model\Account\UseCase\MassageForm\EditAdditionalInfo\PriceDto;
+use App\Tests\Builder\Account\MassageForm\MassageFormBuilder;
 use DateTimeImmutable;
 use DomainException;
 use PHPUnit\Framework\TestCase;
@@ -17,7 +18,7 @@ final class ChangePriceTest extends TestCase
 {
     public function testChangePrices(): void
     {
-        $form = $this->createForm();
+        $form = new MassageFormBuilder()->build();
 
         $dtos = [
             new PriceDto('home', 2, 5000, 'day'),
@@ -35,7 +36,7 @@ final class ChangePriceTest extends TestCase
 
     public function testReplaceExistingPrices(): void
     {
-        $form = $this->createForm();
+        $form = new MassageFormBuilder()->build();
 
         $form->changePrices([
             new PriceDto('home', 1, 3000, 'day'),
@@ -54,7 +55,7 @@ final class ChangePriceTest extends TestCase
 
     public function testMultiplePrices(): void
     {
-        $form = $this->createForm();
+        $form = new MassageFormBuilder()->build();
 
         $form->changePrices([
             new PriceDto('home', 1, 3000, 'day'),
@@ -66,24 +67,11 @@ final class ChangePriceTest extends TestCase
 
     public function testEmptyPricesThrowsException(): void
     {
-        $form = $this->createForm();
+        $form = new MassageFormBuilder()->build();
 
         $this->expectException(DomainException::class);
         $this->expectExceptionMessage('Должна быть указана цена');
 
         $form->changePrices([]);
-    }
-
-    private function createForm(): MassageForm
-    {
-        return new MassageForm(
-            Id::next(),
-            new UserId('user-id'),
-            new Phone('79109688090'),
-            new Name('Аня'),
-            new Description('description'),
-            new DateTimeImmutable('2000-01-01'),
-            new Experience(5),
-        );
     }
 }
