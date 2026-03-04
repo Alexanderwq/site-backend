@@ -36,6 +36,7 @@ class Handler
             new Description($command->description),
             DateTimeImmutable::createFromFormat('Y.m.d', $command->dateOfBirth),
             new Experience($command->experience),
+            new DateTimeImmutable(),
         );
 
         foreach ($command->metroList as $metroId) {

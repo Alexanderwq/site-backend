@@ -65,7 +65,7 @@ class UserBuilder
             $user = User::signUpByEmail(
                 $this->id,
                 $this->date,
-                new Name('test', 'lastName'),
+                new Name('test'),
                 $this->email,
                 $this->hash,
                 $this->token,

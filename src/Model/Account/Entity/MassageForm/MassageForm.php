@@ -177,6 +177,11 @@ class MassageForm implements AggregateRoot
         return $this->photos->toArray();
     }
 
+    public function isComplete(): bool
+    {
+        return !$this->prices->isEmpty() && !$this->photos->isEmpty();
+    }
+
     public function changeName(Name $name): void
     {
         $this->name = $name;
@@ -204,6 +209,10 @@ class MassageForm implements AggregateRoot
 
     public function activate(): void
     {
+        if (!$this->isComplete()) {
+            throw new DomainException('Massage form is not complete');
+        }
+
         if ($this->disabled === false) {
             throw new DomainException('Massage form is already activated');
         }
@@ -213,6 +222,10 @@ class MassageForm implements AggregateRoot
 
     public function deactivate(): void
     {
+        if (!$this->isComplete()) {
+            throw new DomainException('Massage form is not complete');
+        }
+
         if ($this->disabled === true) {
             throw new DomainException('Massage form is already deactivated');
         }

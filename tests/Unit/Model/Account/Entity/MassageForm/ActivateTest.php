@@ -9,7 +9,10 @@ class ActivateTest extends TestCase
 {
     public function testSuccess(): void
     {
-        $form = new MassageFormBuilder()->build();
+        $form = new MassageFormBuilder()
+            ->withPhotos()
+            ->withPrices()
+            ->build();
 
         $form->deactivate();
 
@@ -20,9 +23,20 @@ class ActivateTest extends TestCase
 
     public function testFailed(): void
     {
-        $form = new MassageFormBuilder()->build();
+        $form = new MassageFormBuilder()
+            ->withPhotos()
+            ->withPrices()
+            ->build();
 
         self::expectExceptionMessage('Massage form is already activated');
+        $form->activate();
+    }
+
+    public function testIsNotCompleted()
+    {
+        $form = new MassageFormBuilder()->build();
+
+        self::expectExceptionMessage('Massage form is not complete');
         $form->activate();
     }
 }
