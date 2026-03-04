@@ -13,6 +13,8 @@ doctrine:
             account_favorite_profile_user_id: 'App\Model\Account\Entity\FavoriteMassageForm\UserIdType'
             account_favorite_group_id: 'App\Model\Account\Entity\FavoriteGroup\IdType'
             account_favorite_group_user_id: 'App\Model\Account\Entity\FavoriteGroup\UserIdType'
+            comment_comment_id: 'App\Model\Comment\Entity\Comment\IdType'
+            comment_comment_author_id: 'App\Model\Comment\Entity\Comment\AuthorIdType'
 
         profiling_collect_backtrace: '%kernel.debug%'
     orm:
@@ -32,6 +34,11 @@ doctrine:
                 dir: '%kernel.project_dir%/src/Model/Account/Entity'
                 prefix: 'App\Model\Account\Entity'
                 alias: Account
+            Comment:
+                is_bundle: false
+                dir: '%kernel.project_dir%/src/Model/Comment/Entity'
+                prefix: 'App\Model\Comment\Entity'
+                alias: Comment
         controller_resolver:
             auto_mapping: false
 
