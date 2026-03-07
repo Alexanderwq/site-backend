@@ -5,6 +5,7 @@ namespace App\Controller\Api\Catalog;
 use App\ReadModel\Catalog\CatalogFetcher;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
+use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Attribute\Route;
 
 class CatalogController extends AbstractController
@@ -16,8 +17,9 @@ class CatalogController extends AbstractController
     }
 
     #[Route(path: '/api/catalog/new', name: 'catalog.new', methods: ['GET'])]
-    public function new(CatalogFetcher $fetcher): JsonResponse
+    public function new(CatalogFetcher $fetcher, Request $request): JsonResponse
     {
-        return $this->json($fetcher->fetchNewMassageForms());
+        $page = $request->query->getInt('page', 1);
+        return $this->json($fetcher->fetchNewMassageForms($page));
     }
 }

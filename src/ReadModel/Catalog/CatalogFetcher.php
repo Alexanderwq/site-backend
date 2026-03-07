@@ -4,6 +4,8 @@ namespace App\ReadModel\Catalog;
 
 use App\Controller\Api\Catalog\MassageFormCardView;
 use App\Controller\Api\Catalog\PhotoView;
+use App\Service\Paginator\PaginationResult;
+use App\Service\Paginator\Paginator;
 use DateTimeImmutable;
 use Doctrine\DBAL\ArrayParameterType;
 use Doctrine\DBAL\Connection;
@@ -13,14 +15,17 @@ readonly class CatalogFetcher
 {
     private const int FEED_LIMIT_COUNT_CARDS = 20;
 
+    private const int LIMIT_IN_PAGE = 10;
+
     private const string NEW_FORMS_INTERVAL = '-1 month';
 
     public function __construct(
         private Connection $connection,
+        private Paginator $paginator,
     ) {
     }
 
-    public function fetchNewMassageForms(): array
+    public function fetchNewMassageForms(int $page): PaginationResult
     {
         $qb = $this->connection->createQueryBuilder();
 
@@ -66,11 +71,15 @@ readonly class CatalogFetcher
             ->groupBy('p.id')
             ->orderBy('p.created_at DESC');
 
-        $forms = $qb->executeQuery()->fetchAllAssociative();
+        $forms = $this->paginator->paginate(
+            $qb,
+            $page,
+            self::LIMIT_IN_PAGE,
+        );
 
         $cards = [];
 
-        foreach ($forms as $form) {
+        foreach ($forms->items as $form) {
             $cards[] = new MassageFormCardView(
                 $form['id'],
                 $form['name'],
@@ -88,7 +97,9 @@ readonly class CatalogFetcher
             ));
         }
 
-        return $cards;
+        $forms->items = $cards;
+
+        return $forms;
     }
 
     public function fetchFeed(): array
