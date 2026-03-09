@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Controller\Api\Catalog;
+namespace App\ReadModel\Search;
 
 class MassageFormCardView
 {

@@ -30,6 +30,7 @@ security:
 
     access_control:
         - { path: ^/api/catalog, roles: PUBLIC_ACCESS }
+        - { path: ^/api/search, roles: PUBLIC_ACCESS }
         - { path: ^/api/check-email, roles: PUBLIC_ACCESS }
         - { path: ^/api/auth, roles: PUBLIC_ACCESS }
         - { path: ^/api/metro_list, roles: PUBLIC_ACCESS }

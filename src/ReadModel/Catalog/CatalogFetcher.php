@@ -2,8 +2,7 @@
 
 namespace App\ReadModel\Catalog;
 
-use App\Controller\Api\Catalog\MassageFormCardView;
-use App\Controller\Api\Catalog\PhotoView;
+use App\ReadModel\Search\MassageFormCardView;
 use App\Service\Paginator\PaginationResult;
 use App\Service\Paginator\Paginator;
 use DateTimeImmutable;
