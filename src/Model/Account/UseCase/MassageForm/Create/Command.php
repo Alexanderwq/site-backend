@@ -27,7 +27,11 @@ class Command
     #[Assert\NotBlank]
     public int $experience;
 
-    public array $metroList;
+    public ?float $lat = null;
 
-    public array $districtList;
+    public ?float $long = null;
+
+    public array $metroList = [];
+
+    public array $districtList = [];
 }

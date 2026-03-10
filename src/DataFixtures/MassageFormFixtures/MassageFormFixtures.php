@@ -5,6 +5,7 @@ namespace App\DataFixtures\MassageFormFixtures;
 use App\DataFixtures\AccountMetroStationFixtures;
 use App\DataFixtures\DistrictFixtures\AccountDistrictFixtures;
 use App\Model\Account\Entity\District\District;
+use App\Model\Account\Entity\MassageForm\Coords;
 use App\Model\Account\Entity\MetroStation\MetroStation;
 use App\Model\Account\Entity\MassageForm\Id as MassageFormId;
 use App\Model\Account\Entity\MassageForm\MassageForm;
@@ -37,6 +38,7 @@ class MassageFormFixtures extends Fixture implements DependentFixtureInterface
                 new DateTimeImmutable('1990-01-0' . ($i % 9 + 1)),
                 new Experience(random_int(1, 5)),
                 new DateTimeImmutable()->modify("-$i day"),
+                new Coords(88.123, 12.22),
                 $metroStations,
                 $districts
             );

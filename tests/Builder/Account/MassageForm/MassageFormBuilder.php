@@ -2,6 +2,7 @@
 
 namespace App\Tests\Builder\Account\MassageForm;
 
+use App\Model\Account\Entity\MassageForm\Coords;
 use App\Model\Account\Entity\MassageForm\Description;
 use App\Model\Account\Entity\MassageForm\Experience;
 use App\Model\Account\Entity\MassageForm\Id;
@@ -28,6 +29,7 @@ class MassageFormBuilder
             new DateTimeImmutable('2000-01-01'),
             new Experience(5),
             new DateTimeImmutable(),
+            new Coords(88.123, 12.22),
         );
     }
 

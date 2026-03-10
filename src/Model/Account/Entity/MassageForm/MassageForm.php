@@ -84,6 +84,9 @@ class MassageForm implements AggregateRoot
     #[ORM\Column(type: Types::DATETIME_IMMUTABLE)]
     private DateTimeImmutable $createdAt;
 
+    #[ORM\Embedded(class: Coords::class)]
+    private ?Coords $coords = null;
+
     public function __construct(
         Id $id,
         UserId $userId,
@@ -93,6 +96,7 @@ class MassageForm implements AggregateRoot
         DateTimeImmutable $dateOfBirth,
         Experience $experience,
         DateTimeImmutable $createdAt,
+        ?Coords $coords,
         array $metroStations = [],
         array $districts = [],
     ) {
@@ -110,6 +114,7 @@ class MassageForm implements AggregateRoot
         $this->photos = new ArrayCollection();
         $this->disabled = false;
         $this->createdAt = $createdAt;
+        $this->coords = $coords;
     }
 
     public function getId(): Id
@@ -150,6 +155,11 @@ class MassageForm implements AggregateRoot
     public function getExperience(): Experience
     {
         return $this->experience;
+    }
+
+    public function getCoords(): ?Coords
+    {
+        return $this->coords;
     }
 
     public function getDateOfBirth(): DateTimeImmutable

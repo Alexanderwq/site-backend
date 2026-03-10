@@ -3,6 +3,7 @@
 namespace App\Model\Account\UseCase\MassageForm\Create;
 
 use App\Model\Account\Entity\District\DistrictRepository;
+use App\Model\Account\Entity\MassageForm\Coords;
 use App\Model\Account\Entity\MassageForm\Description;
 use App\Model\Account\Entity\MassageForm\Experience;
 use App\Model\Account\Entity\MassageForm\Id;
@@ -28,6 +29,12 @@ class Handler
 
     public function handle(Command $command): void
     {
+        $coords = null;
+
+        if ($command->lat && $command->long) {
+            $coords = new Coords($command->lat, $command->long);
+        }
+
         $massageForm = new MassageForm(
             new Id($command->id),
             new UserId($command->userId),
@@ -37,6 +44,7 @@ class Handler
             DateTimeImmutable::createFromFormat('Y.m.d', $command->dateOfBirth),
             new Experience($command->experience),
             new DateTimeImmutable(),
+            $coords,
         );
 
         foreach ($command->metroList as $metroId) {
